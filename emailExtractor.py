@@ -28,207 +28,153 @@ class issueType(enum.Enum):
     swimsaferIssue = 8
     receiptIssue = 9
 
-# account credentials
-username = input("Email: ")
-password = input("Password: ")
-
 def clean(text):
     # clean text for creating a folder
     return "".join(c if c.isalnum() else "_" for c in text)
 
-# number of top emails to fetch
-N = 3
+def extractEmail():
+    # account credentials
+    username = input("Email: ")
+    password = input("Password: ")
 
-# create an IMAP4 class with SSL, use your email provider's IMAP server
-imap = imaplib.IMAP4_SSL("imap.gmail.com")
-# authenticates
-try:
-    imap.login(username, password)
-except:
-    print("Invalid email or password. Please run the program again.")
-    exit()
+    # create an IMAP4 class with SSL, use your email provider's IMAP server
+    imap = imaplib.IMAP4_SSL("imap.gmail.com")
+    # authenticates
+    try:
+        imap.login(username, password)
+    except:
+        print("Invalid email or password. Please run the program again.")
+        exit()
 
+    # select a mailbox (in this case, the inbox mailbox)
+    # use imap.list() to get the list of mailboxes
+    imap.select("ToBeProcessed")
+    retcode, messages = imap.search(None, '(UNSEEN)')
 
-# select a mailbox (in this case, the inbox mailbox)
-# use imap.list() to get the list of mailboxes
-status, messages = imap.select("ToBeProcessed")
-# imap.select("INBOX")
-# status, messages = imap.search(None, 'X-GM-LABELS', "ToBeProcessed")
-
-# total number of emails
-messages = int(messages[0])
-
-spreadsheetInputs = []
-caseidPattern = 'CASE:(\d+)'
-for i in range(messages, messages-N, -1):
-    currentInput = []
-    caseID = ""
-    finalBodyMessage = ""
-    bodyText = ""
-    subjectText = ""
-    # fetch the email message by ID
-    res, msg = imap.fetch(str(i), "(RFC822)")
-    # imap.store(str(i), '-X-GM-LABELS', "ToBeProcessed")
-    for response in msg:
-        if isinstance(response, tuple):
-            # parse a bytes email into a message object
-            msg = email.message_from_bytes(response[1])
-            # decode the email subject
-            subject, encoding = decode_header(msg["Subject"])[0]
-            if isinstance(subject, bytes):
-                # if it's a bytes, decode to str
-                subject = subject.decode(encoding)
-            # decode email sender
-            From, encoding = decode_header(msg.get("From"))[0]
-            if isinstance(From, bytes):
-                From = From.decode(encoding)
-            currentInput.append(From)
-            subjectText = subject.replace("\r", "").replace("\n", "")
-            currentInput.append(subjectText)
-            caseID = re.findall(caseidPattern, subjectText)
-            # if the email message is multipart
-            if msg.is_multipart():
-                # iterate over email parts
-                for part in msg.walk():
-                    # extract content type of email
-                    content_type = part.get_content_type()
-                    content_disposition = str(part.get("Content-Disposition"))
-                    try:
+    spreadsheetInputs = []
+    caseidPattern = 'CASE:(\d+)'
+    for i in messages[0].split():
+        currentInput = []
+        caseID = ""
+        finalBodyMessage = ""
+        bodyText = ""
+        subjectText = ""
+        # fetch the email message by ID
+        res, msg = imap.fetch(i, "(RFC822)")
+        for response in msg:
+            if isinstance(response, tuple):
+                # parse a bytes email into a message object
+                msg = email.message_from_bytes(response[1])
+                # decode the email subject
+                subject, encoding = decode_header(msg["Subject"])[0]
+                if isinstance(subject, bytes):
+                    # if it's a bytes, decode to str
+                    subject = subject.decode(encoding)
+                # decode email sender
+                From, encoding = decode_header(msg.get("From"))[0]
+                if isinstance(From, bytes):
+                    From = From.decode(encoding)
+                currentInput.append(From)
+                subjectText = subject.replace("\r", "").replace("\n", "")
+                currentInput.append(subjectText)
+                caseID = re.findall(caseidPattern, subjectText)
+                inDatabase = queryData(str("".join(caseID)))
+                if (inDatabase == False):
+                    # if the email message is multipart
+                    if msg.is_multipart():
+                        # iterate over email parts
+                        for part in msg.walk():
+                            # extract content type of email
+                            content_type = part.get_content_type()
+                            content_disposition = str(part.get("Content-Disposition"))
+                            try:
+                                # get the email body
+                                body = part.get_payload(decode=True).decode()
+                            except:
+                                pass
+                            if content_type == "text/plain" and "attachment" not in content_disposition:
+                                # print text/plain emails and skip attachments
+                                bodyText = body
+                                # text_tokens = word_tokenize(body)
+                                # tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
+                                # finalBodyMessage = " ".join(tokens_without_sw)
+                            # elif "attachment" in content_disposition:
+                            #     # download attachment
+                            #     filename = part.get_filename()
+                            #     if filename:
+                            #         folder_name = clean(subject)
+                            #         if not os.path.isdir(folder_name):
+                            #             # make a folder for this email (named after the subject)
+                            #             os.mkdir(folder_name)
+                            #         filepath = os.path.join(folder_name, filename)
+                            #         # download attachment and save it
+                            #         open(filepath, "wb").write(part.get_payload(decode=True))
+                    else:
+                        # extract content type of email
+                        content_type = msg.get_content_type()
                         # get the email body
-                        body = part.get_payload(decode=True).decode()
-                    except:
-                        pass
-                    if content_type == "text/plain" and "attachment" not in content_disposition:
-                        # print text/plain emails and skip attachments
-                        bodyText = body
-                        text_tokens = word_tokenize(body)
-                        tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
-                        finalBodyMessage = " ".join(tokens_without_sw)
-                        print(bodyText)
-                    # elif "attachment" in content_disposition:
-                    #     # download attachment
-                    #     filename = part.get_filename()
-                    #     if filename:
-                    #         folder_name = clean(subject)
-                    #         if not os.path.isdir(folder_name):
-                    #             # make a folder for this email (named after the subject)
-                    #             os.mkdir(folder_name)
-                    #         filepath = os.path.join(folder_name, filename)
-                    #         # download attachment and save it
-                    #         open(filepath, "wb").write(part.get_payload(decode=True))
-            else:
-                # extract content type of email
-                content_type = msg.get_content_type()
-                # get the email body
-                body = msg.get_payload(decode=True).decode()
-                if content_type == "text/plain":
-                    text_tokens = word_tokenize(body)
-                    tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
-                    finalBodyMessage = " ".join(tokens_without_sw)
+                        body = msg.get_payload(decode=True).decode()
+                        if content_type == "text/plain":
+                            bodyText = body
+                            # text_tokens = word_tokenize(body)
+                            # tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
+                            # finalBodyMessage = " ".join(tokens_without_sw)
+                    # processBodyMessage(bodyText)
+                    # Forward email to respective developer
+                    # msg = EmailMessage()
+                    # msg['Subject'] = subjectText
+                    # msg['From'] = username
+                    # msg['To'] = username # future elif statement
+                    # msg.set_content(bodyText)
+                    # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+                    #     smtp.login(username, password)
+                    #     smtp.send_message(msg)
+
+                # else:
+                #     if From == "erik@iappsasia.com" or "jianchuan@iappsasia.com":
+                        # Forward email to helpdesk
+                        # msg = EmailMessage()
+                        # msg['Subject'] = subjectText
+                        # msg['From'] = username
+                        # msg['To'] = "helpme@iappsasia.com"
+                        # msg.set_content(bodyText)
+                        # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+                        #     smtp.login(username, password)
+                        #     smtp.send_message(msg)
+
+    # close the connection and logout
+    imap.close()
+    imap.logout()
+
+# def updateGooglesheet():
+#     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+#     SERVICE_ACCOUNT_FILE = 'credentials.json'
+#     creds = None
+#     creds = service_account.Credentials.from_service_account_file(
+#             SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+#
+#     # The ID spreadsheet.
+#     SAMPLE_SPREADSHEET_ID = '1mz4_KQxdGBoY8XqslY9q45LrqKUdmyUjrxEtN7fB1BI'
+#
+#     service = build('sheets', 'v4', credentials=creds)
+#
+#     # Call the Sheets API
+#     sheet = service.spreadsheets()
+#     # result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+#     #                             range=SAMPLE_RANGE_NAME).execute()
+#     # values = result.get('values', [])
+#
+#     request = sheet.values().append(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+#                                     range="Main Page!A2", valueInputOption="USER_ENTERED", body={"values":spreadsheetInputs}).execute()
 
 
-            # if content_type == "text/html":
-            #     # if it's HTML, create a new HTML file and open it in browser
-            #     folder_name = clean(subject)
-            #     if not os.path.isdir(folder_name):
-            #         # make a folder for this email (named after the subject)
-            #         os.mkdir(folder_name)
-            #     filename = "index.html"
-            #     filepath = os.path.join(folder_name, filename)
-            #     # write the file
-            #     open(filepath, "w").write(body)
-            #     # open in the default browser
-            #     webbrowser.open(filepath)
-
-    accountCount, paymentCount, refundCount, checkoutCount, scanCount, merchantCount, bookingCount, \
-    gymswimbookingCount, swimsaferCount, receiptCount = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-    listOfIssuesCount = [accountCount, paymentCount, refundCount, checkoutCount, scanCount, merchantCount, bookingCount,
-                         gymswimbookingCount, swimsaferCount, receiptCount]
-    finalIssue = 0
-
-    # accountCount
-    listOfIssuesCount[0] += finalBodyMessage.lower().count("account") + finalBodyMessage.lower().count("forget password") + \
-                    finalBodyMessage.lower().count("profile") + finalBodyMessage.lower().count("edit profile") + \
-                    finalBodyMessage.lower().count("verify") + finalBodyMessage.lower().count("singpass") + \
-                    finalBodyMessage.lower().count("nric") + finalBodyMessage.lower().count("foreigner") + \
-                    finalBodyMessage.lower().count(" pr ")
-    # paymentCount
-    listOfIssuesCount[1] += finalBodyMessage.lower().count("payment") + finalBodyMessage.lower().count(" gl ") + \
-                    finalBodyMessage.lower().count("general ledger") + finalBodyMessage.lower().count("transaction") + \
-                    finalBodyMessage.lower().count("wrong transaction") + finalBodyMessage.lower().count("void")
-    # refundCount
-    listOfIssuesCount[2] += finalBodyMessage.lower().count("refund") + finalBodyMessage.lower().count("credit card") + \
-                   finalBodyMessage.lower().count("dbs") + finalBodyMessage.lower().count("debit") + \
-                   finalBodyMessage.lower().count("credit")
-    # checkoutCount
-    listOfIssuesCount[3] += finalBodyMessage.lower().count("check out") + finalBodyMessage.lower().count("add to cart") + \
-                     finalBodyMessage.lower().count("cart")
-    # scanCount
-    listOfIssuesCount[4] += finalBodyMessage.lower().count("scan") + finalBodyMessage.lower().count("check in") + \
-                 finalBodyMessage.lower().count("enter") + finalBodyMessage.lower().count("qr") + \
-                 finalBodyMessage.lower().count("qr code")
-    # merchantCount
-    listOfIssuesCount[5] += finalBodyMessage.lower().count("merchant") + finalBodyMessage.lower().count("subway") + \
-                     finalBodyMessage.lower().count("store") + finalBodyMessage.lower().count("deduct")
-    # bookingCount
-    listOfIssuesCount[6] += finalBodyMessage.lower().count("booking") + finalBodyMessage.lower().count("badminton") + \
-                    finalBodyMessage.lower().count("tennis") + finalBodyMessage.lower().count("soccer")
-    # gymswimbookingCount
-    listOfIssuesCount[7] += finalBodyMessage.lower().count("gym") + finalBodyMessage.lower().count("swim")
-    # swimsaferCount
-    listOfIssuesCount[8] += finalBodyMessage.lower().count("swimsafer") + finalBodyMessage.lower().count("certificate")
-    # receiptCount
-    listOfIssuesCount[9] += finalBodyMessage.lower().count("receipt")
-
-    count = 0
-    temp = 0
-    for issue in listOfIssuesCount:
-        if issue > temp:
-            temp = issue
-            finalIssue = count
-        count += 1
-    currentInput.append(str(issueType(finalIssue)))
-    spreadsheetInputs.append(currentInput)
-    print(currentInput)
-    print("=" * 100)
-
-    # inDatabase = queryData(str("".join(caseID)), str(issueType(finalIssue)))
-    # if (inDatabase == false):
+if __name__== "__main__":
+    extractEmail()
+    # updateGooglesheet()
 
 
-    # Forward email to respective developer
-    # msg = EmailMessage()
-    # msg['Subject'] = subjectText
-    # msg['From'] = username
-    # msg['To'] = username # future elif statement
-    # msg.set_content(bodyText)
-    # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-    #     smtp.login(username, password)
-    #     smtp.send_message(msg)
 
-# close the connection and logout
-imap.close()
-imap.logout()
 
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = 'credentials.json'
-creds = None
-creds = service_account.Credentials.from_service_account_file(
-        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-
-# The ID spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1mz4_KQxdGBoY8XqslY9q45LrqKUdmyUjrxEtN7fB1BI'
-
-service = build('sheets', 'v4', credentials=creds)
-
-# Call the Sheets API
-sheet = service.spreadsheets()
-# result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-#                             range=SAMPLE_RANGE_NAME).execute()
-# values = result.get('values', [])
-
-request = sheet.values().append(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                range="Main Page!A2", valueInputOption="USER_ENTERED", body={"values":spreadsheetInputs}).execute()
 
 
 

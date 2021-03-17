@@ -3,7 +3,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="127.0.0.1",
   user="root",
-  password="mrranmoru98",
+  password="",
   database="CaseNumber"
 )
 mycursor = mydb.cursor()
@@ -14,14 +14,13 @@ def insertData(caseid, issuetype):
     mycursor.execute(sql, val)
     mydb.commit()
 
-def queryData(caseid, issuetype):
+def queryData(caseid):
     mycursor.execute("SELECT caseid FROM CaseID WHERE caseid=" + caseid)
     myresult = mycursor.fetchall()
-    if not len(myresult):
+    if not myresult:
         print("Not in Database")
-        insertData(caseid, issuetype)
-        return true
+        return False
     else:
         print("Already in Database")
-        return false
+        return True
 
