@@ -17,7 +17,6 @@ from email import encoders
 from email.message import EmailMessage
 import html
 import re
-from database import queryData
 import pathlib
 import os.path
 from os import path
@@ -61,8 +60,9 @@ def extractEmail():
 
     # select a mailbox (in this case, the inbox mailbox)
     # use imap.list() to get the list of mailboxes
-    imap.select("ToBeProcessed")
+    imap.select("Inbox")
     retcode, messages = imap.search(None, '(UNSEEN)')
+
 
     spreadsheetInputs = []
     caseidPattern = 'CASE:(\d+)'
@@ -94,6 +94,7 @@ def extractEmail():
                 currentInput.append(From)
                 subjectText = subject.replace("\r", "").replace("\n", "")
                 currentInput.append(subjectText)
+                print(currentInput) #has email and subject
                 # caseID = re.findall(caseidPattern, subjectText)
                 # inDatabase = queryData(str("".join(caseID)))
                 # if (inDatabase == False):
@@ -112,6 +113,8 @@ def extractEmail():
                         if content_type == "text/plain" and "attachment" not in content_disposition:
                             # print text/plain emails and skip attachments
                             bodyText = body
+                            print("here")
+                            print(body)
                         elif "attachment" in content_disposition:
                             emailWithAttachment = 1
                             # download attachment
@@ -129,24 +132,26 @@ def extractEmail():
                 else:
                     # extract content type of email
                     content_type = msg.get_content_type()
+                    print("else content type")
+                    print(content_type)
                     # get the email body
                     body = msg.get_payload(decode=True).decode()
                     if content_type == "text/plain":
                         bodyText = body
                     # processBodyMessage(bodyText)
 
-                if content_type == "text/html":
-                    # if it's HTML, create a new HTML file and open it in browser
-                    folder_name = clean(subject)
-                    if not os.path.isdir(folder_name):
-                        # make a folder for this email (named after the subject)
-                        os.mkdir(folder_name)
-                    filename = "index.html"
-                    filepath = os.path.join(folder_name, filename)
-                    # write the file
-                    open(filepath, "w").write(body)
-                    # open in the default browser
-                    webbrowser.open(filepath)
+                # if content_type == "text/html":
+                #     # if it's HTML, create a new HTML file and open it in browser
+                #     folder_name = clean(subject)
+                #     if not os.path.isdir(folder_name):
+                #         # make a folder for this email (named after the subject)
+                #         os.mkdir(folder_name)
+                #     filename = "index.html"
+                #     filepath = os.path.join(folder_name, filename)
+                #     # write the file
+                #     open(filepath, "w").write(body)
+                #     # open in the default browser
+                #     webbrowser.open(filepath)
 
                 msg = MIMEMultipart()
                 msg['From'] = username
