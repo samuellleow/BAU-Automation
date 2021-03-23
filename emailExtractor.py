@@ -1,20 +1,29 @@
 import imaplib
 import email
+import json
+import shutil
 from email.header import decode_header
 import webbrowser
 import os
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 import string
 import enum
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
 from email.message import EmailMessage
 import html
 import re
 from database import queryData
+import pathlib
+import os.path
+from os import path
+from os import listdir
+from os.path import isfile, join
+
 
 class issueType(enum.Enum):
     accountIssue = 0
@@ -34,8 +43,12 @@ def clean(text):
 
 def extractEmail():
     # account credentials
-    username = input("Email: ")
-    password = input("Password: ")
+    # username = input("Email: ")
+    # password = input("Password: ")
+    with open('user.json', 'r') as f:
+        user_token = json.load(f)
+    username = user_token['username']
+    password = user_token['password']
 
     # create an IMAP4 class with SSL, use your email provider's IMAP server
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
@@ -59,12 +72,16 @@ def extractEmail():
         finalBodyMessage = ""
         bodyText = ""
         subjectText = ""
+        folderPath = ""
+        emailWithAttachment = 0
         # fetch the email message by ID
         res, msg = imap.fetch(i, "(RFC822)")
         for response in msg:
             if isinstance(response, tuple):
                 # parse a bytes email into a message object
                 msg = email.message_from_bytes(response[1])
+                # raw_email_string = msg[0][1].decode('utf-8')
+                # email_message = email.message_from_string(raw_email_string)
                 # decode the email subject
                 subject, encoding = decode_header(msg["Subject"])[0]
                 if isinstance(subject, bytes):
@@ -77,70 +94,94 @@ def extractEmail():
                 currentInput.append(From)
                 subjectText = subject.replace("\r", "").replace("\n", "")
                 currentInput.append(subjectText)
-                caseID = re.findall(caseidPattern, subjectText)
-                inDatabase = queryData(str("".join(caseID)))
-                if (inDatabase == False):
-                    # if the email message is multipart
-                    if msg.is_multipart():
-                        # iterate over email parts
-                        for part in msg.walk():
-                            # extract content type of email
-                            content_type = part.get_content_type()
-                            content_disposition = str(part.get("Content-Disposition"))
-                            try:
-                                # get the email body
-                                body = part.get_payload(decode=True).decode()
-                            except:
-                                pass
-                            if content_type == "text/plain" and "attachment" not in content_disposition:
-                                # print text/plain emails and skip attachments
-                                bodyText = body
-                                # text_tokens = word_tokenize(body)
-                                # tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
-                                # finalBodyMessage = " ".join(tokens_without_sw)
-                            # elif "attachment" in content_disposition:
-                            #     # download attachment
-                            #     filename = part.get_filename()
-                            #     if filename:
-                            #         folder_name = clean(subject)
-                            #         if not os.path.isdir(folder_name):
-                            #             # make a folder for this email (named after the subject)
-                            #             os.mkdir(folder_name)
-                            #         filepath = os.path.join(folder_name, filename)
-                            #         # download attachment and save it
-                            #         open(filepath, "wb").write(part.get_payload(decode=True))
-                    else:
+                # caseID = re.findall(caseidPattern, subjectText)
+                # inDatabase = queryData(str("".join(caseID)))
+                # if (inDatabase == False):
+                # if the email message is multipart
+                if msg.is_multipart():
+                    # iterate over email parts
+                    for part in msg.walk():
                         # extract content type of email
-                        content_type = msg.get_content_type()
-                        # get the email body
-                        body = msg.get_payload(decode=True).decode()
-                        if content_type == "text/plain":
+                        content_type = part.get_content_type()
+                        content_disposition = str(part.get("Content-Disposition"))
+                        try:
+                            # get the email body
+                            body = part.get_payload(decode=True).decode()
+                        except:
+                            pass
+                        if content_type == "text/plain" and "attachment" not in content_disposition:
+                            # print text/plain emails and skip attachments
                             bodyText = body
-                            # text_tokens = word_tokenize(body)
-                            # tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
-                            # finalBodyMessage = " ".join(tokens_without_sw)
+                        elif "attachment" in content_disposition:
+                            emailWithAttachment = 1
+                            # download attachment
+                            filename = part.get_filename()
+                            if filename:
+                                folder_name = clean(subject)
+                                if not os.path.isdir(folder_name):
+                                    # make a folder for this email (named after the subject)
+                                    os.mkdir(folder_name)
+                                    absolutePath = pathlib.Path(__file__).parent.absolute()
+                                    folderPath = os.path.join(absolutePath, folder_name)
+                                filepath = os.path.join(folder_name, filename)
+                                # download attachment and save it
+                                open(filepath, "wb").write(part.get_payload(decode=True))
+                else:
+                    # extract content type of email
+                    content_type = msg.get_content_type()
+                    # get the email body
+                    body = msg.get_payload(decode=True).decode()
+                    if content_type == "text/plain":
+                        bodyText = body
                     # processBodyMessage(bodyText)
-                    # Forward email to respective developer
+
+                if content_type == "text/html":
+                    # if it's HTML, create a new HTML file and open it in browser
+                    folder_name = clean(subject)
+                    if not os.path.isdir(folder_name):
+                        # make a folder for this email (named after the subject)
+                        os.mkdir(folder_name)
+                    filename = "index.html"
+                    filepath = os.path.join(folder_name, filename)
+                    # write the file
+                    open(filepath, "w").write(body)
+                    # open in the default browser
+                    webbrowser.open(filepath)
+
+                msg = MIMEMultipart()
+                msg['From'] = username
+                msg['To'] = username
+                msg['Subject'] = subjectText
+                msg.attach(MIMEText(body, 'html'))
+                if emailWithAttachment == 1:
+                    for file in listdir(folderPath):
+                        with open(os.path.join(folderPath, file), 'rb') as f:
+                            file_data = f.read()
+                            file_name = f.name
+                        # instance of MIMEBase and named as p
+                        p = MIMEBase('application', 'octet-stream')
+                        # To change the payload into encoded form
+                        p.set_payload(file_data)
+                        encoders.encode_base64(p)
+                        p.add_header('Content-Disposition', "attachment; filename= %s" % file)
+                        msg.attach(p)
+                with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+                    smtp.login(username, password)
+                    smtp.send_message(msg)
+        # # Delete folder containing current attachments
+        # shutil.rmtree(folderPath)
+            # Email from developer side (Phase 3)
+            # else:
+            #     if From == "erik@iappsasia.com" or "jianchuan@iappsasia.com":
+                    # Forward email to helpdesk
                     # msg = EmailMessage()
                     # msg['Subject'] = subjectText
                     # msg['From'] = username
-                    # msg['To'] = username # future elif statement
+                    # msg['To'] = "helpme@iappsasia.com"
                     # msg.set_content(bodyText)
                     # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
                     #     smtp.login(username, password)
                     #     smtp.send_message(msg)
-
-                # else:
-                #     if From == "erik@iappsasia.com" or "jianchuan@iappsasia.com":
-                        # Forward email to helpdesk
-                        # msg = EmailMessage()
-                        # msg['Subject'] = subjectText
-                        # msg['From'] = username
-                        # msg['To'] = "helpme@iappsasia.com"
-                        # msg.set_content(bodyText)
-                        # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                        #     smtp.login(username, password)
-                        #     smtp.send_message(msg)
 
     # close the connection and logout
     imap.close()
