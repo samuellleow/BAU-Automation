@@ -61,8 +61,8 @@ def extractEmail():
 
     # select a mailbox (in this case, the inbox mailbox)
     # use imap.list() to get the list of mailboxes
-    imap.select("ToBeProcessed")
-    retcode, messages = imap.search(None, '(UNSEEN)')
+    imap.select("testing")
+    (retcode, messages) = imap.search(None, '(UNSEEN)')
 
     spreadsheetInputs = []
     caseidPattern = 'CASE:(\d+)'
@@ -99,20 +99,28 @@ def extractEmail():
                 # if (inDatabase == False):
                 # if the email message is multipart
                 if msg.is_multipart():
+                    print("entering email")
                     # iterate over email parts
                     for part in msg.walk():
+                        print("reading parts of email")
                         # extract content type of email
                         content_type = part.get_content_type()
+                        print(content_type)
                         content_disposition = str(part.get("Content-Disposition"))
+                        print(content_disposition)
                         try:
                             # get the email body
                             body = part.get_payload(decode=True).decode()
                         except:
                             pass
-                        if content_type == "text/plain" and "attachment" not in content_disposition:
+                        if content_type == "text/plain" and ("attachment" or "inline") not in content_disposition:
+                            print("printing plain text")
                             # print text/plain emails and skip attachments
                             bodyText = body
-                        elif "attachment" in content_disposition:
+                            print("From here")
+                            print(body)
+                        elif ("attachment" in content_disposition) or ("inline" in content_disposition):
+                            print("printing attachment or inline")
                             emailWithAttachment = 1
                             # download attachment
                             filename = part.get_filename()
@@ -127,12 +135,15 @@ def extractEmail():
                                 # download attachment and save it
                                 open(filepath, "wb").write(part.get_payload(decode=True))
                 else:
+                    print("3")
                     # extract content type of email
                     content_type = msg.get_content_type()
                     # get the email body
                     body = msg.get_payload(decode=True).decode()
                     if content_type == "text/plain":
                         bodyText = body
+                        print("From there")
+                        print(body)
                     # processBodyMessage(bodyText)
 
                 if content_type == "text/html":
@@ -145,12 +156,10 @@ def extractEmail():
                     filepath = os.path.join(folder_name, filename)
                     # write the file
                     open(filepath, "w").write(body)
-                    # open in the default browser
-                    webbrowser.open(filepath)
 
                 msg = MIMEMultipart()
                 msg['From'] = username
-                msg['To'] = username
+                msg['To'] = "wenfeng@iappsasia.com"
                 msg['Subject'] = subjectText
                 msg.attach(MIMEText(body, 'html'))
                 if emailWithAttachment == 1:
