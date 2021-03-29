@@ -17,7 +17,7 @@ from email import encoders
 from email.message import EmailMessage
 import html
 import re
-from database import queryData
+# from database import queryData
 import pathlib
 import os.path
 from os import path
@@ -61,7 +61,7 @@ def extractEmail():
 
     # select a mailbox (in this case, the inbox mailbox)
     # use imap.list() to get the list of mailboxes
-    imap.select("testing")
+    imap.select("To be processed")
     (retcode, messages) = imap.search(None, '(UNSEEN)')
 
     spreadsheetInputs = []
@@ -99,17 +99,18 @@ def extractEmail():
                 # if (inDatabase == False):
                 # if the email message is multipart
                 if msg.is_multipart():
-                    print("entering email")
+                    print("1")
                     # iterate over email parts
                     for part in msg.walk():
-                        print("reading parts of email")
+                        # print("reading parts of email")
                         # extract content type of email
                         content_type = part.get_content_type()
-                        print(content_type)
+                        # print(content_type)
                         content_disposition = str(part.get("Content-Disposition"))
-                        print(content_disposition)
+                        # print(content_disposition)
                         try:
                             # get the email body
+                            print("try")
                             body = part.get_payload(decode=True).decode()
                         except:
                             pass
@@ -117,8 +118,8 @@ def extractEmail():
                             print("printing plain text")
                             # print text/plain emails and skip attachments
                             bodyText = body
-                            print("From here")
-                            print(body)
+                            # print("From here")
+                            # print(body)
                         elif ("attachment" in content_disposition) or ("inline" in content_disposition):
                             print("printing attachment or inline")
                             emailWithAttachment = 1
@@ -142,8 +143,8 @@ def extractEmail():
                     body = msg.get_payload(decode=True).decode()
                     if content_type == "text/plain":
                         bodyText = body
-                        print("From there")
-                        print(body)
+                        # print("From there")
+                        # print(body)
                     # processBodyMessage(bodyText)
 
                 if content_type == "text/html":
@@ -176,7 +177,8 @@ def extractEmail():
                         msg.attach(p)
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
                     smtp.login(username, password)
-                    smtp.send_message(msg)
+        print(body)
+                    # smtp.send_message(msg)
         # # Delete folder containing current attachments
         # shutil.rmtree(folderPath)
             # Email from developer side (Phase 3)
