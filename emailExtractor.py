@@ -99,30 +99,24 @@ def extractEmail():
                 # if (inDatabase == False):
                 # if the email message is multipart
                 if msg.is_multipart():
-                    print("entering email")
                     # iterate over email parts
                     for part in msg.walk():
-                        print("reading parts of email")
                         # extract content type of email
                         content_type = part.get_content_type()
-                        print(content_type)
                         content_disposition = str(part.get("Content-Disposition"))
-                        print(content_disposition)
                         try:
                             # get the email body
                             body = part.get_payload(decode=True).decode()
                         except:
                             pass
                         if content_type == "text/plain" and ("attachment" or "inline") not in content_disposition:
-                            print("printing plain text")
                             # print text/plain emails and skip attachments
                             bodyText = body
-                            print("From here")
+                            print(type(body))
                             print(body)
                         elif ("attachment" in content_disposition) or ("inline" in content_disposition):
-                            print("printing attachment or inline")
                             emailWithAttachment = 1
-                            # download attachment
+                            # download attachment and inline img
                             filename = part.get_filename()
                             if filename:
                                 folder_name = clean(subject)
@@ -135,14 +129,13 @@ def extractEmail():
                                 # download attachment and save it
                                 open(filepath, "wb").write(part.get_payload(decode=True))
                 else:
-                    print("3")
                     # extract content type of email
                     content_type = msg.get_content_type()
                     # get the email body
                     body = msg.get_payload(decode=True).decode()
                     if content_type == "text/plain":
                         bodyText = body
-                        print("From there")
+                        print(type(body))
                         print(body)
                     # processBodyMessage(bodyText)
 
@@ -152,6 +145,8 @@ def extractEmail():
                     if not os.path.isdir(folder_name):
                         # make a folder for this email (named after the subject)
                         os.mkdir(folder_name)
+                        absolutePath = pathlib.Path(__file__).parent.absolute()
+                        folderPath = os.path.join(absolutePath, folder_name)
                     filename = "index.html"
                     filepath = os.path.join(folder_name, filename)
                     # write the file
@@ -159,7 +154,7 @@ def extractEmail():
 
                 msg = MIMEMultipart()
                 msg['From'] = username
-                msg['To'] = "wenfeng@iappsasia.com"
+                msg['To'] = "samuel@iappsasia.com"
                 msg['Subject'] = subjectText
                 msg.attach(MIMEText(body, 'html'))
                 if emailWithAttachment == 1:
@@ -177,8 +172,8 @@ def extractEmail():
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
                     smtp.login(username, password)
                     smtp.send_message(msg)
-        # # Delete folder containing current attachments
-        # shutil.rmtree(folderPath)
+        # Delete folder containing current attachments
+        shutil.rmtree(folderPath)
             # Email from developer side (Phase 3)
             # else:
             #     if From == "erik@iappsasia.com" or "jianchuan@iappsasia.com":
