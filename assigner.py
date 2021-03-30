@@ -1,19 +1,19 @@
 import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 from keras.layers import Dense, Embedding, LSTM, SpatialDropout1D
 from sklearn.model_selection import train_test_split
-from keras.utils.np_utils import to_categorical
+# from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
-from keras.layers import Dropout
+# from keras.layers import Dropout
 import re
 from nltk.corpus import stopwords
-from nltk import word_tokenize
-from bs4 import BeautifulSoup
+# from nltk import word_tokenize
+# from bs4 import BeautifulSoup
 
 STOPWORDS = set(stopwords.words('english'))
 CONTEXTUAL_STOPWORDS = ['hello', 'said', 'regards', 'hi', 'all', 'please', 'assist','kindly','help','thx','thank','thankyou','you', 'thu', 'fwd', 'forwarded', 'message', 'iappsasiacom', 'date', 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'gmail', 'gmailcom', 'com', 'tell', 'am', 'pm', 'subject', 'query', 'mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']

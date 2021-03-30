@@ -7,8 +7,8 @@ import webbrowser
 import os
 import string
 import enum
-from googleapiclient.discovery import build
-from google.oauth2 import service_account
+# from googleapiclient.discovery import build
+# from google.oauth2 import service_account
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -17,12 +17,13 @@ from email import encoders
 from email.message import EmailMessage
 import html
 import re
-from database import queryData
+# from database import queryData
 import pathlib
 import os.path
 from os import path
 from os import listdir
 from os.path import isfile, join
+from assigner import Assigner
 
 
 class issueType(enum.Enum):
@@ -151,6 +152,11 @@ def extractEmail():
                     filepath = os.path.join(folder_name, filename)
                     # write the file
                     open(filepath, "w").write(body)
+
+                ass = Assigner("data/train.csv")
+                ass.train(0.2)
+                predicted_issue = ass.assign(body)
+                print(predicted_issue)
 
                 msg = MIMEMultipart()
                 msg['From'] = username
