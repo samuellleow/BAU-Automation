@@ -1,24 +1,839 @@
-﻿content,issue
-"Hi Erik and Kelvin
-Please help check why parental information is missing for the month of Jan only, other months are showing",Account Profile
-"Please help check why parental information is missing for the month of Jan only, other months are showing",Account Profile
+﻿content,issue,Case Number,Remarks
+"Hi All,
+
+This case requires investigation
+
+- Issue: Unable to register for child account on website, parental contact
+does not appear - Platform: MMS, production
+
+- Raised by: iAPPS HelpDesk, iAPPS
+
+- How to get the problem again?
+
+We had a call from a member who was unable to register for her 14 year old
+son on the activesg website, they are unable to fill the parent/guardian
+contact fields as it does not appear when selecting any month for the DOB.
+
+They were using two different browsers and still had the same issue.
+
+We have tested on our side and we have a similar issue as well.
+
+When we select January, the parent/guardian contact fields do not appear
+but when we select the other months, the fields appear.
+
+We have advised the member to register through the mobile app instead.
+
+Please kindly see attached for the differences
+
+Please kindly advise, thank you.
+
+Thanks and Best Regards,
+
+Elizabeth",Account Profile,215416,
+"Hi All,  
+Able to assist as user called in trying to register a supplementary account for her daughter under the 'Add Child' function but is unable to do so due to the 'invalid ID' error prompt.  
+The ID number is valid upon checking with NRIC checker and the child also does not have an existing ActiveSG account as we are unable to find the account in MMS.  
+User was using the mobile app on her Android phone.  
+Child's ID: T1990328H 
+Thank you! 
+Warmest Regards, 
+Yuan Ting 
+ActiveSG Technical Helpdesk 
+iAPPS Pte Ltd 
+3 Fusionopolis Way, #13-24/25 
+Symbiosis, Singapore 138633 
+Helpline: 65941388",Account Profile,217136,
+"Hi All,
+Please kindly assist.
+Issue: Member tried to create child's supplementary account but it stated as invalid. We checked in MMS but the account is not found.
+BC no.: TXXXX871F
+Thank you.
+With Best Regards,
+Yuki
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",Account Profile,214264,"we need more information for investigation:
+1. Platform used: Web / iOS / Android
+2. App version if any: Latest ver?
+3. Which page / step did the user see invalid?
+4. Do you have the full Error message shown / Screenshot of error when trying to add the son"
+"Hi All,  
+Can I check if you will be able to amend the user's name even if user has linked his account to MyInfo?  User is requesting to edit his name as he feels that it is infringing the PDPA.  
+Thank you! 
+Warmest Regards, 
+Yuan Ting 
+ActiveSG Technical Helpdesk 
+iAPPS Pte Ltd 
+3 Fusionopolis Way, #13-24/25 
+Symbiosis, Singapore 138633 
+Helpline: 65941388 
+From: yuanting@iappsasia.com 
+Date: 08/03/2021 10:15am 
+To: helpme@iappsasia.com 
+Subject: [CASE:214566] Fwd: [CASE:214416] ActiveSG Contact Us 
+---------- Forwarded message --------- 
+From: <cyau73@yahoo.com> 
+Date: Sun, Mar 7, 2021 at 7:29 PM 
+Subject: [CASE:214416] ActiveSG Contact Us 
+To: Yeo Yuan Ting <yuanting@iappsasia.com> 
+Hi Yuan Ting, 
+I can’t modify my name as it’s tied to MyInfo. Please help as I do not want my full name displayed. 
+Thank you.  
+Sent from my iPhone 
+On 7 Mar 2021, at 6:52 AM, Yeo Yuan Ting <contactus@iappsasia.com> wrote: 
+Hi Chris,  
+Thank you for writing to ActiveSG Technical HelpDesk. 
+You may edit your name in your profile by going to 'Edit Profile' (mobile app) or 'Edit My Account' (website).  Using mobile app: click on 'ME' >> 'Edit Profile'  
+Using the website: click on 'Edit My Account' >> 'Edit Name'  
+You may log into your account on the ActiveSG website via this link: members.myactivesg.com 
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. 
+For other enquiries, click here. https://members.myactivesg.com/feedback. 
+Thank you! 
+Warmest Regards, 
+Yuan Ting 
+ActiveSG Technical Helpdesk 
+iAPPS Pte Ltd 
+3 Fusionopolis Way, #13-24/25 
+Symbiosis, Singapore 138633 
+Helpline: 65941388 
+From: cyau73@yahoo.com 
+Date: 06/03/2021 10:09pm 
+To: helpme@iappsasia.com 
+Subject: [CASE:214416] ActiveSG Contact Us 
+Please remove my full name from my profile as part of PDPA. I am not able to do it from the app.  
+Thank you 
+Chris Yau 
+Sent from my iPhone",Account Profile,214566,
+"Hi All,
+This case requires investigation
+- Issue: Can't verify account
+- Platform: MMS, production
+- Raised by: Lum Mun Ee, ASG Member
+- How to get the problem again?
+Member is unable to receive the $100 credits despite their account being verified and only has $3
+credits in their account.
+Lum Mun Ee
+98792133
+
+Please kindly assist, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: rsctrisgreat@gmail.com
+Date: 09/03/2021 08:31am
+To: helpme@iappsasia.com
+Subject: [CASE:214808] Re: [CASE:214627] Mobile App & Active SG$
+Dear Azimah,
+I have logged in via your step 2 after clicking the link however I couldn't move to step 3 because there is no cross (x) button beside my name.
+Please advise.
+Regards,
+Mun Ee
+On Mon, Mar 8, 2021 at 6:19 PM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Mun Ee,
+Can you try to log in to your ActiveSG account using the web browser and attempt verification from the website ? You may refer to follow
+step and see if its work.
+1) Go to https://members.myactivesg.com/auth
+2) Login to your account.
+3) On the main page see if there is any cross (x) button beside your name. If have click on the (x) red colour button and you are then directed
+to the Singpass log in page.
+4) Log in using Singpass login instead if Singpass mobile.
+5) Set ewallet pin
+Do revert if issue still persist after doing the above steps and take a screenshot if possible.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rsctrisgreat@gmail.com
+Date: 08-03-2021 06:10pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214627] Mobile App & Active SG$
+Dear Azimah,
+
+The number is 98792133.
+Regards,
+Mun Ee
+On Mon, 8 Mar 2021 at 6:06 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Mun Ee,
+Can you provide us with your mobile number registered with your ActiveSG account?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rsctrisgreat@gmail.com
+Date: 08-03-2021 03:02pm
+To: helpme@iappsasia.com
+Subject: [CASE:214627] Mobile App & Active SG$
+Dear ActiveSG App Technical Helpdesk,
+I had called the helpline earlier on and spoken to a lady by the name Yan Ting. She
+mentioned that I sent an email in regarding my Active SG where it didn’t reflect the Active
+SG$100 credited since I activated last week.
+Please assist. Thank you.
+Regards,
+Mun Ee",Account Profile,214808,
+"Hi All,
+Kindly assist on this issue ; User created another account under NRIC. Both account NRIC and FIN currently active
+May i check if user change citizenship G3384064R but created another account under NRIC S7856695G , how do i advise further from here?
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: wangdi0915@gmail.com
+Date: 12/03/2021 05:08pm
+To: helpme@iappsasia.com
+Subject: [CASE:215776] Erase my EP account
+Hi,
+My name is Wang Di. I manage got my PR status last year. I registered another activesg account using singpass. So the one with my EP
+account is no longer needed. I need you to erase my EP account which is G3384064R. I need to use the phone number and email to register
+for my daughter which is 12 years old.
+Please help.
+My current ID is S7856695G. My daughter's ID is T0876110D. Please help.
+Call my cell phone 90101695 if anything uncertain.
+Thanks.",Account Profile,215776,
+"Hi All,
+Kindly assist on this issue : GO unable to create account despite advised over the phone.
+Name: Nely Layanto
+NRIC: S2195713E
+Birthdate: 21 April 1968
+Mobile: 82286525
+Email: nely.layanto@wintermar.com
+Address: 100 Greenwood Avenue S289306
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: HO_Aun_Hui@sport.gov.sg
+Date: 15/03/2021 07:43pm
+To: helpme@iappsasia.com
+Subject: [CASE:216959] CASE:216490
+Good evening,
+
+As called earlier regarding the member’s registration issue, these are her particulars stated below. I await for your swift response.
+
+Name: Nely Layanto
+NRIC: S2195713E
+Birthdate: 21 April 1968
+Mobile: 82286525
+Email: nely.layanto@wintermar.com
+Address: 100 Greenwood Avenue S289306
+
+Thank you.
+
+Thanks n best regards,
+
+HO AUN HUI
+GUEST OFFICER
+ActiveSG Central | Queenstown Sport Centre | Sport Singapore
+Ho_Aun_Hui@sport.gov.sg | T.65 6473 7269 | 473 Stirling Road Singapore 148948",Account Profile,216959,
+"Hi All,
+This case requires investigation
+- Issue: User receiving error ""Invalid or missing parameters: name"" when trying to edit his profile on the app
+- Platform: MMS, production
+- Raised by: Syakur Fadly Bin Ibrahim, ActiveSG member
+- How to get the problem again
+User was having trouble changing his profile on the app, it gave the error ""Invalid or missing parameters: name"" when he tried to make the
+changes (as per screenshot from user, attached)
+User's details:
+Mobile no. (Linked to ActiveSG): 91189937
+Name: Syakur Fadly Bin Ibrahim
+Platform: Android
+Phone Model: Oppo Reno 3pro
+Android Version: 11
+App Version: not sure
+Thank you.
+Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: syngates1307@gmail.com
+Date: 16/03/2021 02:45pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:217099] ActiveSG Contact Us
+Phone Model: Oppo Reno 3pro
+Android Version: 11
+App Version: not sure
+On Tue, 16 Mar 2021, 13:46 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Dear Sir/Madam,
+In addition to the below details, could you also provide us with the below additional information?
+Phone Model:
+OS/Android Version:
+App Version:
+Thank you.
+With Best Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: zachary <helpme@iappsasia.com>
+Date: 16/03/2021 01:42pm
+To: syngates1307@gmail.com
+Subject: Re: [CASE:217099] ActiveSG Contact Us
+Dear Sir/Madam,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please kindly assist to fill up the details below for us to investigate.
+Mobile no. (Linked to ActiveSG):
+Name:
+Platform: Web / Android / iOS:
+In the meantime, can we suggest that you use the website to update your profile instead of the app?
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com.
+For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: syngates1307@gmail.com
+Date: 16/03/2021 11:33am
+To: helpme@iappsasia.com
+Subject: [CASE:217099] ActiveSG Contact Us
+I'm having trouble to change my profile as I already input my name but there's error saying input name .. I've attached the picture below.",Account Profile,217099,
+"Hi All,
+Able to assist as member is unable to reset the account password even with the assistance of the
+Guest Officer at the Sports Centre, details as attached.
+Member name: Alfie Lim
+Member's number: 86064358
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: guan.leng@hotmail.com
+Date: 17/03/2021 02:31pm
+To: helpme@iappsasia.com
+Subject: [CASE:217410] Active Sg Apps - S760306A
+Good day Sir/Madam,
+
+I’m writing pertaining to Active Sg account. I tried to login to my existing account but not able to, I
+called Technical Support phone on 17-03-2021 at 0900hrs, they tried to reset my password but not
+able to, the technical support team then direct me to Active Sg office at Hougang Sport Hall. At the
+Sport Hall, the guest relation officer then ask me to reset the passwords, I follow her instruction
+and reset the password 5 times but still not able to log in. We also tried using Singpass but also
+can’t.
+
+As my account had been inactive since 2017, and previously linked to the Facebook account, I
+suspect the username is my facebook account. I had closed my facebook account since 2018. I
+would like to request to delink my link facebook account and link to either my NRIC or handphone
+number.
+
+Below are my detail:
+
+Name: LIM GUAN LENG (Lin Yuanlong)
+
+NRIC: S7603056A
+
+DOB: 04-02-1976
+
+Handphone: 86064358
+
+Thanks
+
+guanleng
+
+Sent from Mail for Windows 10",Account Profile,217410,
 "Hi All,
 Kindly assist in checking if user have receive the $100 ActiveSG credit as we are unable to view in mms.
 ID ; S8467206H
 For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
 enquiries, click here. https://members.myactivesg.com/feedback.
-Thank you.",ActiveSG Credits
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: cyc0303@yahoo.com
+Date: 19/02/2021 05:25pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:210360] ActiveSg $100 was not credited
+Hi,
+I had done that. But still don’t have. Is show as below that credit had credited on 25 Jul 2019.
+
+Sent from my iPhone
+On 19 Feb 2021, at 16:23, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+You may login via the ActiveSG website here
+https://members.myactivesg.com/auth?redirect=%2Fprofile%2Fmybookings
+and click
+My Account >> Edit My Account >> Click Retrieve My Info
+You may reply to this email if issue persist.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: cyc0303@yahoo.com
+Date: 19/02/2021 04:11pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:210360] ActiveSg $100 was not credited
+Hi,
+My NRIC - S8467206H.
+Thanks.
+Regard,
+Yc
+Sent from my iPhone
+On 16 Feb 2021, at 20:05, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing in to the ActiveSG Technical Helpdesk.
+Please provide us with your NRIC for us to check.
+Thank you.
+For technical-related issues, contact us again at +65 65941388 (Mon to
+Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+
+Best Regards,
+Ruolin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",ActiveSG Credits,210360,
 "Hi All,
 Please assist.
 User have a change in his citizenship, and has also update and verified his account, but the credit is not reflected in his account .
 Refer attached screenshot.
 Username : CHIN YUN CHOO
-HP : 88182109",ActiveSG Credits
-"Hi iApps colleagues,
+HP : 88182109
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd CHIN YUN CHOO
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: cyc0303@yahoo.com
+Date: 19-02-2021 05:25pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:210360] ActiveSg $100 was not credited
+Hi,
+I had done that. But still don’t have. Is show as below that credit had credited on 25 Jul 2019.
+
+Sent from my iPhone
+On 19 Feb 2021, at 16:23, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+You may login via the ActiveSG website here
+https://members.myactivesg.com/auth?redirect=%2Fprofile%2Fmybookings
+and click
+My Account >> Edit My Account >> Click Retrieve My Info
+You may reply to this email if issue persist.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: cyc0303@yahoo.com
+Date: 19/02/2021 04:11pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:210360] ActiveSg $100 was not credited
+Hi,
+My NRIC - S8467206H.
+Thanks.
+Regard,
+Yc
+Sent from my iPhone
+On 16 Feb 2021, at 20:05, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing in to the ActiveSG Technical Helpdesk.
+Please provide us with your NRIC for us to check.
+Thank you.
+For technical-related issues, contact us again at +65 65941388 (Mon to
+Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Best Regards,
+Ruolin
+
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",ActiveSG Credits,210360,Same case but helpdesk response twice
+"Hi All,
+Kindly assist on this issue ; User cannot see $100 ActiveSG credits in account , purchased
+programme and was not entitled to the 30% off.
+Verified date 2021-03-05 21:43:05.
+Account created , 2014-06-24 01:27:00.
+Mobile no: 9152 9929
+Name: Karen Tay
+Platform: IOS
+Error message: Bank card was charged $110 instead of the $77 (30% discount) reflected at the cart
+out page when signing up for my aikido classes @ Serangoon Stadium.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: karentay397@gmail.com
+Date: 07/03/2021 08:16pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214411] Wrong amount charged for payment
+Hi,
+Here are the details.
+Mobile no: 9152 9929
+Name: Karen Tay
+Platform: IOS
+Error message: Bank card was charged $110 instead of the $77 (30% discount) reflected at the cart out page when signing up for my aikido
+classes @ Serangoon Stadium.
+Attached is a screenshot of the bank statement.
+Thank you.
+Best regards,
+Karen Tay
+
+On 6 Mar 2021, at 9:26 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please kindly assist to fill up the details below for us to investigate.
+Mobile no. (Linked to ActiveSG):
+Name:
+Platform: Web / Android / iOS:
+Error Message (If any):
+If you use Debit card,
+Attached Screenshot of Bank statement or bank reference ID:
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: karentay397@gmail.com
+Date: 06/03/2021 09:22pm
+To: helpme@iappsasia.com
+Subject: [CASE:214411] Wrong amount charged for payment
+Dear Sir/Madam
+My name is Karen Tay (9152 9929), I just made an online payment via activesg to sign up for my aikido classes @
+Serangoon Stadium. At cart out, the amount stated was with the 30% discount at $77, however when I proceeded with the
+payment, my card was charged the full amount of $110, and the receipt received states $110 too.
+I hope to find a solution to this problem and perhaps receive a refund.
+Thank you for your time and I look forward to your reply.
+Best regards,
+Karen Tay",ActiveSG Credits,214411,
+"Hi All,
+This case requires investigation
+- Issue: Can't verify account
+- Platform: MMS, production
+- Raised by: Lum Mun Ee, ASG Member
+- How to get the problem again?
+Member is unable to receive the $100 credits despite their account being verified and only has $3
+credits in their account.
+Lum Mun Ee
+98792133
+
+Please kindly assist, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: rsctrisgreat@gmail.com
+Date: 09/03/2021 08:31am
+To: helpme@iappsasia.com
+Subject: [CASE:214808] Re: [CASE:214627] Mobile App & Active SG$
+Dear Azimah,
+I have logged in via your step 2 after clicking the link however I couldn't move to step 3 because there is no cross (x) button beside my name.
+Please advise.
+Regards,
+Mun Ee
+On Mon, Mar 8, 2021 at 6:19 PM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Mun Ee,
+Can you try to log in to your ActiveSG account using the web browser and attempt verification from the website ? You may refer to follow
+step and see if its work.
+1) Go to https://members.myactivesg.com/auth
+2) Login to your account.
+3) On the main page see if there is any cross (x) button beside your name. If have click on the (x) red colour button and you are then directed
+to the Singpass log in page.
+4) Log in using Singpass login instead if Singpass mobile.
+5) Set ewallet pin
+Do revert if issue still persist after doing the above steps and take a screenshot if possible.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rsctrisgreat@gmail.com
+Date: 08-03-2021 06:10pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214627] Mobile App & Active SG$
+Dear Azimah,
+
+The number is 98792133.
+Regards,
+Mun Ee
+On Mon, 8 Mar 2021 at 6:06 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Mun Ee,
+Can you provide us with your mobile number registered with your ActiveSG account?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rsctrisgreat@gmail.com
+Date: 08-03-2021 03:02pm
+To: helpme@iappsasia.com
+Subject: [CASE:214627] Mobile App & Active SG$
+Dear ActiveSG App Technical Helpdesk,
+I had called the helpline earlier on and spoken to a lady by the name Yan Ting. She
+mentioned that I sent an email in regarding my Active SG where it didn’t reflect the Active
+SG$100 credited since I activated last week.
+Please assist. Thank you.
+Regards,
+Mun Ee",ActiveSG Credits,214808,same case but 2 different types of issue
+"Hi All,
+This case requires investigation
+- Issue: User not recieiving $100 ActiveSG Credits
+- Platform: production
+- Raised by: NINGSIH, ActiveSG user
+- How to get the problem again?
+User had emailed into helpdesk on 8 March 2021 to query regarding the $100 ActiveSG credits, and has mentioned that her account has
+already been verified.
+Check in MMS had indicated that she had indeed not recieved the $100 ASG credits for verification of the account, and had only recieved $9
+ASG credits on 01 Dec 2020 & 6:24 pm.
+Thank you.
+Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: shewine@yahoo.com
+Date: 09/03/2021 10:13am
+To: helpme@iappsasia.com
+Subject: [CASE:214821] Re: [CASE:214575] Fwd: [CASE:214557] Please advise
+Hi Azimah,
+I went to Clementi sports hub last Saturday. The Active SG staff checked with
+her pad and confirmed that my account has been verified. And she also
+wondered why my $100 is not in my e-wallet, so she suggested me to send
+email to ActiveSG.
+Anyway I have tried to login via web browser, it is the same. Attached is the
+screen shot.
+Please advise.
+Thank you,
+Ningsih
+On Monday, March 8, 2021, 05:00:19 PM GMT+8, Active SG Helpdesk <helpme@iappsasia.com>
+wrote:
+
+Hi Ningsih,
+Can you try to log in your ActiveSG via the web browser and try to verify your account from there?
+Link to login via web browser : https://members.myactivesg.com/
+Once you are log in, on the main page click on the ""X"" icon which is located beside your name, it will direct you to the Singpass login page.
+Then log in using your Singpass NRIC and password..
+Also ensure that you have set your e-wallet pin after you have verified your account again.
+Do revert if issue still persist.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: shewine@yahoo.com
+Date: 08-03-2021 02:20pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214575] Fwd: [CASE:214557] Please advise
+Hi Carissa,
+Mobile No.: 92712331
+Phone Model: SM-A920F/DS
+OS/Android Version: 10
+App Version: 2.8.0
+Thank you
+Regards,
+Ningsih
+On Monday, March 8, 2021, 11:11:20 AM GMT+8, Active SG Helpdesk <helpme@iappsasia.com>
+wrote:
+
+Hi
+Thank you for writing to the ActiveSG technical helpdesk.
+please advise us on the following details so that we can check:
+Mobile No.:
+Phone Model:
+OS/Android Version:
+App Version:
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Carissa
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: carissalim@iappsasia.com
+Date: 08-03-2021 10:59am
+
+To: helpme@iappsasia.com
+Subject: [CASE:214575] Fwd: [CASE:214557] Please advise
+
+---------- Forwarded message ---------
+From: ningsih ningsih <shewine@yahoo.com>
+Date: Mon, Mar 8, 2021 at 10:48 AM
+Subject: [CASE:214557] Please advise
+To: Carissa Lim <carissalim@iappsasia.com>
+
+Hi Carissa Lim,
+I have tried login with SingPass a few times, days before I sent my 1st email this
+morning.
+I went to Clementi sports hub last saturday to asked one of the Active SG staff.
+She checked with her pad and confirmed that my account has been verified.
+And she suggested me to send email to ActiveSG.
+Attached is the photos.
+Please advise and thank you.
+Regards,
+Ningsih
+
+On Monday, March 8, 2021, 09:42:44 AM GMT+8, Carissa Lim <contactus@iappsasia.com>
+wrote:
+
+Hi
+Thank you for writing to the ActiveSG technical helpdesk.
+Account verification is necessary to claim the ActiveSG $100 credits, to be eligible for local rates,
+and to be able to book facilities 15 days in advance.
+All members aged 16 years old and above are required to verify their accounts via SingPass, and
+may first register a SingPass at these locations:
+https://www.singpass.gov.sg/singpass/common/counter
+To verify your ActiveSG account, please follow the steps below.
+1. Login (existing user) ->Profile -> ME -> Verify my account
+Please logout and login again if you're unable to see the credits.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Carissa
+
+Carissa
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: shewine@yahoo.com
+Date: 08-03-2021 09:36am
+To: helpme@iappsasia.com
+Subject: [CASE:214557] Please advise
+Dear Sir/Madam,
+I, Ningsih (S7988479J) have been ActiveSG member since 23 Nov 2020.
+Do I eligible for $100 ActiveSG? If yes, May I know how to get it into my account?
+Please advise. Thank you
+Regards,
+Ningsih",ActiveSG Credits,214821,
+"Hi All,
+Kindly advise on this issue, thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Chong_junjie@sport.gov.sg
+Date: 03/03/2021 05:50pm
+To: helpme@iappsasia.com
+Cc: YEO_Shu_Ling@sport.gov.sg, oon_yee_hon@sport.gov.sg
+Subject: [CASE:213627] FW: [CASE:213295] Re: [CASE:213041] Re: [CASE:211932] Why is the booking changed from 8am to 12pm
+Hi iApps colleagues,
 please find the feedback writer have on the lag that he experience during 12noon for gym booking.
 had mentioned twice that we are monitoring but he is not accepting the response. Wonder if we receive such feedback regularly and if there is
-anything we could do?",Booking
-"Hi Jun Jie,
+anything we could do?
+
+Thanks!
+
+Regards,
+Junjie
+Service Quality
+Sport Singapore
+
+From: Chong, Jun Jie <contactus@iappsasia.com>
+Sent: Wednesday, 3 March 2021 5:32 PM
+To: Junjie CHONG (SPORT) <CHONG_Junjie@sport.gov.sg>
+Subject: [CASE:213295] Re: [CASE:213041] Re: [CASE:211932] Why is the booking changed from 8am to 12pm
+
+Christopher Leong
+Christopher.leongth@gmail.com
+
+Hi Jun Jie,
 
 Thanks for the fast reply.
 I further wish to point out that the system traffic is too overwhelming and
@@ -40,7 +855,564 @@ Please get your team to look into this issue as I'm not the only one not
 being satisfied with this server issue of yours. ""Monitoring"" is an
 understatement as it had been days.
 
-Looking forward to hearing from you.",Booking
+Looking forward to hearing from you.
+
+Sincerely,
+Christopher Leong Tai Hao
+HP: 97729382
+
+On Mon, 1 Mar 2021, 17:26 Sport Singapore System,
+
+wrote:
+
+&gt; Dear Mr Leong,
+&gt;
+&gt; Thank you for writing to Sport Singapore(SportSG).
+&gt;
+&gt; As the change is only made recently, we will continue to monitor and
+&gt; review the change in timing. We seek your understanding on this matter.
+&gt;
+&gt;
+&gt; Yours Sincerely,
+&gt;
+&gt; Chong Jun Jie
+&gt; Service Quality
+&gt; Sport Singapore(SportSG)",Booking,213627,
+"Hi All
+Able to assist as member said that this is the 2nd time it has happened, when he booked for YCK Sports Hall, the receipt would reflect Bukit
+Gombak instead.
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: robdjm@gmail.com
+Date: 04/03/2021 10:50am
+To: helpme@iappsasia.com
+Subject: [CASE:213770] Booking badminton venue
+Hi, there
+When I booked 19/03 badminton venue this morning is in Yio Chu Kang Sports Hall (this is my 1st favorite venue),but after payment is Bokit
+Gombak Sports Hall.
+How come like that? Can you check it for me. This is 2nd time liao. The day before yesterday I booked 17/03 badminton venue also like that.
+Last time I’m not sure is my maske or not. Today I’m sure when I booking is in Yio Chu Kang Sports Hall.
+Please help me check, thanks!
+Regards
+Dai Jian Min",Booking,213770,"We need a bit more information for further checks:
+1. Platform that user used: iOS / Android / Web?
+2. Account mobile no.
+3. Check if user saw the detail page for Yio Chu Kang Sports Hall after selecting the favourites. (ie. Home > Facility booking > Favourites shown
+> Press on favourite > Did user go to Yio Chu Kang Sports Hall or Bukit Gombak Sports Hall detail page?)
+4. Screenshot of slots add to cart - ask user to check if it is showing Yio Chu Kang Sports Hall or Bukit Gombak Sports Hall before checking out."
+"Hi All,
+Kindly assist on the issue : Page loading hang
+Mobile No.: 94553722
+Phone Model:i phone 11 ,
+OS/Android Version: 14.4
+App Version: 2.2
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: l.hizon.i@gmail.com
+Date: 03/03/2021 07:53am
+To: helpme@iappsasia.com
+Subject: Re: [CASE:213500] Buffering and loading problem
+Hi Shima,
+Mobile No.: 94553722
+Phone Model:i phone 11 ,
+OS/Android Version: 14.4
+App Version: 2.2
+I have attached the video. After 6-7clicks to refresh the date it hangs.",Booking,213500,
+"Hi All,
+This case needs investigation
+- Issue: error messages prompted:
+1. ""Sorry, the slot you have selected has been taken up."" [This happens 95% of the time user logged into the system when there are still slots
+available]
+2. Invalid shopping id. ( This happens when making payment using ewallet pin)
+- Platform: MMS , Production
+- Raised by: Jeremy Sho, SSG HQ
+- How to get the problem again?
+Phone model: iPhone 11 Pro Max
+OS Version: 14.4
+App version: not sure
+Mobile data or WIFI: mobile data (at times wifi)
+Refer attached pitcure for references.
+- Investigation results: NIL
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: mykonokam@gmail.com
+Date: 08-03-2021 06:18pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214072] Constant errors messages when booking gym facilities
+Hi
+Yes. The app is updated.
+From the review, seems like many users are experiencing the same issue as me. Please look into this and fixed the issue ASAP.
+Thanks
+Rgds
+On Mon, 8 Mar 2021 at 4:43 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Can we check if your app is updated?
+You may go to your Applestore and click update and try again.
+Do let us know if issues persist even after you have updated your app.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Jenny Goh <mykonokam@gmail.com>
+Date: Mon, Mar 8, 2021 at 11:51 AM
+Subject: [CASE:214072] Constant errors messages when booking gym facilities
+To: Yeo Yuan Ting <yuanting@iappsasia.com>
+
+Above is another error msg when trying to check out.
+Rgds
+On Sat, 6 Mar 2021 at 12:26 PM, Jenny Goh <mykonokam@gmail.com> wrote:
+Hi
+Info as below
+Thanks much
+Rgds
+
+On Sat, 6 Mar 2021 at 9:08 AM, Yeo Yuan Ting <contactus@iappsasia.com> wrote:
+Hi,
+Kindly provide us with the following details so that we can check: -
+Phone model: iPhone 11 Pro Max
+OS Version: 14.4
+App version: not sure
+Mobile data or WIFI: mobile data (at times wifi)
+Do share with us a screenshot of the issue as well.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: mykonokam@gmail.com
+Date: 05/03/2021 08:28pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214072] Constant errors messages when booking gym facilities
+Dear Azimah
+The error messages:
+1. ""Sorry, the slot you have selected has been taken up."" [This happens 95% of the time I
+logged into the system when there are still slots available]
+2. Invalid shopping id. ( This happens when making payment using ewallet pin)
+Rgds
+On Fri, Mar 5, 2021 at 1:57 PM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Can we check what error are you prompted with while making booking? Are you able to take
+screenshot of the error prompt the next time you attempt a booking?
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm)
+or email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",Booking,214072,
+"Hi all,
+Kindly assist on this issue as $1.50 was deducted from member's activesg credits when she purchase for gym, though she is a senior citizen.
+Thank you.
+With Best Regards,
+Carissa
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Rashidah_ASMAWI@sport.gov.sg
+Date: 08-03-2021 12:50pm
+To: helpme@iappsasia.com
+Cc: sport_btgombaksc@sport.gov.sg
+Subject: [CASE:214598] Senior Citizen needs to pay for gym
+Hi Iapps,
+
+As per tele-conversation with Huijing, SDA from Bukit Gombak,
+
+A Guest came and feedback free entry to gyms is not available on her app/web, she
+would be charged $1.50 for gym when she tries to book. She does not want to pay
+for gym as a senior citizen with ActiveSG$. She would be 74 yrs old this year.
+
+Guest would want this issue to be rectified the soonest.
+
+Wannapha Lee
+S2203060D
+
+For your assistance please.
+Rashidah Asmawi
+Sport Champion
+ActiveSG West | Bukit Gombak Sports Centre | Sport Singapore
+
+Rashidah_Asmawi@sport.gov.sg | T.65 695670 | 810 Bukit Batok West Ave 5, Singapore 659088
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",Booking,214598,"CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise."
+"Hi All,
+Referring to the 7am booking issue, attached is the screen record of an attempt booking for badminton slot captured at 7.04am.
+Two different devices were used but user only provide 1 recording as both have the same issue as per attached video.
+1)Phone model: samsung s 10 lite
+OS Version: android version 1.1
+App version: 2.8.0
+Mobile data or : broad band wifi singtel
+2) Phone model: oppor.R9plus
+OS Version: 6.0.1
+App version: 2.8.0
+Mobile data or :broad band wifi singtel
+Please advice how we handle these cases moving forward.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: anboviya@gmail.com
+Date: 09-03-2021 05:50pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214676] Re: [CASE:214619] Badminton Slots booking
+Dear sir
+1) Phone model: samsung s 10 lite
+OS Version: android version 1.1
+App version: 2.8.0
+Mobile data or : broad band wifi singtel
+2)
+Phone model: oppor.R9plus
+OS Version: 6.0.1
+App version: 2.8.0
+Mobile data or :broad band wifi singtel
+3) myctive sg website
+Also had the same issue
+Thanks
+ANBU
+On Tue, 9 Mar 2021, 16:02 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for your reply.
+Can you also provide us with the following details?
+Phone model:
+OS Version:
+App version:
+Mobile data or :
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: anboviya@gmail.com
+Date: 09-03-2021 01:24pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214676] Re: [CASE:214619] Badminton Slots booking
+Dear sir,
+Thank you for your reply. I had attached few video and photos regarding the above matter.
+Fyi this issue was not accured before circuit breaker(Feb 2020).
+Thanks & Rgds
+Anbu
+On Mon, 8 Mar 2021, 19:22 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi Anbu,
+Can you do a screen recording for us to replicate this issue on our end and also to forward to our developers to check?
+We do note that there may be some lagging or loading took too long and we have tested the app on our end at 7am to replicate this issue.
+But there may be other factors that may slower down your booking process and for us to understand the issue on users end, it be best to
+provide us with the screen recording of your attempt bookings.
+We apologised for the inconvenience caused.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: anboviya@gmail.com
+Date: 08-03-2021 06:02pm
+To: helpme@iappsasia.com
+Subject: [CASE:214676] Re: [CASE:214619] Badminton Slots booking
+Dear sir
+I expect this answer with no value.
+Your booking is open at 7am means i can enter only at 7am.that is not the issue.
+Before CB, we can enter to the slot chedule without any problem there i understand geting space is depend on people""s reaction at the
+time of huge traffic for booking and few times we was told that slot selected was already selected.
+But nowadays we even cant enter into the slot schedule. Always freeze or stick between the facility choosen and slot schedule chart.
+Thanks
+Anbu
+On Mon, 8 Mar 2021, 17:33 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi Anbu,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please note that 7.00am is the peak period due to high popularity of badminton court booking at ActiveSG.
+Based on the timing stamped in the email, you attempted a booking at 7.00am which is the peak period where large number of people
+rush in to book for badminton courts. The system processes multiple processes at a time which is why it takes a while to load.
+We have escalated the issue to our developers for further investigation.
+We seek your understanding that due to the complexity of the issue, it may take some time for it to be resolved.
+Nonetheless, we will expedite the process wherever possible.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: anboviya@gmail.com
+Date: 08-03-2021 02:29pm
+To: helpme@iappsasia.com
+Subject: [CASE:214619] Badminton Slots booking
+Dear Sir/Mdm
+I had an issue in booking badminton court for last 4-5 months,
+1) After circuit breaker, i understand only sports hall where open, School halls are not open. so it was justified get booking on 7am had a
+issue due to less availability.
+2) But when school hall starts to open on Dec holidays i expected it would be back to normal like before circuit breaker.But it did not
+happen to my wonder.
+3) The main issue is when at 7am we sign in to book and when we choose the sports hall the apps where is was stuck there by showing
+rolling(processing). After 2 minutes only it was allow us to go into the schedule where it was almost full. How others can go in and book
+??.Why we are blocked/kept hold like this?? i tried through the website also the result is same.
+4) Before Covid we can enter is not available we can look for other facility to book
+I write through FB chat to Clementi Sportd hall couple of months before until today no answer
+Thanks &Rgds
+Anbu
+96965242",Booking,214676,"ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388"
+"Hi All,
+For your perusal, thank you!
+I have placed all the attachments from his 3 emails in a separate google drive folder as they are too big to be forwarded in a single email.
+He has also CC'ed the various ministries in the email so we will need your advice on the response from our end.
+Google drive link: https://drive.google.com/drive/folders/1yEf0Ey9ZIAGKIQvG4ywYGLztMryg-s3Y?usp=sharing
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: ksjaishankar@hotmail.com
+Date: 16/03/2021 03:48pm
+To: sport_qsm@sport.gov.sg, helpme@iappsasia.com, contact@mccy.gov.sg, hpb_mailbox@hpb.gov.sg, contact@moe.gov.sg,
+secretariat@singaporebadminton.org.sg
+Subject: [CASE:217139] Badminton Facilities AND Booking Solution To Better Utilize the Resources (For MOE Reference No:
+""2021/02/009173"")
+Dear All,
+I believe you have seen and read the recently news on Badminton Court
+Booking issues and challenges in getting court booked for our own game with
+our own friends. For me, the booking challenges are NOT new issues (although
+selling the court is really news to me and also shocking to know, how some have
+managed to sell the courts!!!!!). I thought through, as I one of the regular
+ActiveSG Sports Facility User (Badminton) and Badminton is my PASSION.
+Having such a passion to the game, I invested, encouraged my friends to play
+Badminton, donated racquets etc., Also keep trying to reach out ActiveSG /
+MCCY and other known associations/organizations contacts in resolving the
+issues and to make the system to work for all equally. All my requests so far, did
+not give desired results. So writing a proposal as a last resort to get the situation
+better.
+Please find attached proposal for your perusal and I strongly believe that you will
+consider the proposal and respond accordingly. With available time and
+resources I have, the proposal is prepared, it may not be perfect. I believe your
+prestigeous organizations know-how, expertise, resources, my initial proposal
+can be enhanced/improved. Also the enhanced / improved proposal can be
+implemented in 3-6 months time easily. In summary the proposal talks about;
+
+1. Challenges of Court Booking and using
+2. Some of the solutions (Immediate, Short-Term and Long-Term)
+3. Critical Success Factor and Joint Responsibilities
+a. Setup Facility Management Board comprising MOE,
+ActiveSG/Sports SG / MCCY, HPB, SBA representative
+
+b. Release School Indoor Sports Halls (ISHs) to public use
+on Weekdays too
+c. Enhance the ActiveSG Booking System / Server infrastructure to
+serve better with same booking open time either 7:00:00AM or
+6:00:58AM and equal No. of steps on PC Browser & Mobile App
+
+d. Setup System to enable Certified Coach as the Facility Manager
+(instead of ActiveSG managing the facility to open and close the
+ISHs)
+
+e. Setup Star-Points / De-Merit Points Program to enhance the
+existing Coach Certification / Registry
+
+f. Setup the Data Capturing System Solution and “Badminton and
+Health” research for the betterment of society
+
+I am willing to discuss further in person, if such need arises. Feel free to warrant
+me for the discussion. Following files are attached as part of the proposal;
+1. Proposal
+(""Badminton_Facilities_AND_Booking_Solution_To_BetterUtilizeResources
+.docx"")
+2. Request submitted at ""Meet the People Session""
+(""Meet_the_People_Session_MPS_PunggolNorth_20190902.docx""). The
+response for the same can be seen on the Proposal Appendix-B
+3. Booking Issues and Correspondence for 2019 (I did not add previous
+years, should you need let me know)
+(""ActiveSG_CourtBooking_Issues_Emails_for_2019.pdf"")
+4. Booking Issues and Correspondence for
+2020 (""ActiveSG_CourtBooking_Issues_Emails_for_2020.pdf"",
+""ActiveSG_CourtBooking_Issues_Emails_for_2020_01.pdf"",
+""ActiveSG_CourtBooking_Issues_Emails_for_2020_02.pdf"" and
+""ActiveSG_CourtBooking_Issues_Emails_for_2020_03.pdf"")
+5. Booking Issues and Correspondence for 2021
+(""ActiveSG_CourtBooking_Issues_Emails_for_2021_20210314.pdf"")
+6. Court Booking Using PC Browser Application Software - Video to support
+the ActiveSG Technical Support Team's Request (""My Account - ActiveSG
+- Google Chrome 2021-03-04 06-59-55.mp4"")
+I am not sure, whether all the above attachments can be sent on a single email.
+So will be sending the files in multiple emails, please bear with me.
+
+I am eagerly waiting for your favourable response, should you need any
+additional details, clarifications or you have questions, please feel free to let me
+know.
+Yours Faithfully
+K.S. Jaishankar",Booking,217139,
+"Yes, Phoebe
+Ur right.
+No way can gain access to your system without captcha.
+But I (not only me) have encountered the following problems
+1. Unable to edit or add to cart even though we click the slots
+2. Lagging badly
+3. Unable to connect to servers
+These are very common problems encountered.
+Hope you all look into
+Thanks
+BEST REGARDS BEST REGARDS
+Poh Neo Poh Neo
+
+On 3 Mar 2021, at 10:50 AM, Phoebe Xie <contactus@iappsasia.com> wrote:
+Dear Ms Soh,
+
+Would like to inform you that there has always been captcha in the system. The captcha
+will be requested at exactly 7am (system time in SGT) and without solving it there is no
+way to make a booking at that point of time.
+We have verified as well and do see the captcha at 7am SGT.
+
+Thank You.",Booking,205006,
+"Hi All,
+
+
+
+Kindly assist on the issue : Page loading hang
+
+
+Mobile No.: 94553722
+
+Phone Model:i phone 11 , 
+
+OS/Android Version: 14.4
+
+App Version: 2.2
+
+
+
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+
+Thank you.
+
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+
+Hi Shima,
+
+It is sengkang sportshall. But regardless of the court or not in oarticular the date. Once you click 7x or 9x in the apps. It will hang. I need to close and open again the apps. 
+
+Sent from my iPhone
+
+On 3 Mar 2021, at 7:56 AM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+
+﻿
+ Hi,
+
+Thank you for writing to ActiveSG Technical HelpDesk.
+
+
+
+May we also check with you , for which venue and date is the badminton court booking for?
+
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+
+Thank you.
+
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: l.hizon.i@gmail.com
+Date: 03/03/2021 07:53am
+To: helpme@iappsasia.com
+Subject: Re: [CASE:213500] Buffering and loading problem
+
+Hi Shima,
+
+Mobile No.: 94553722
+
+Phone Model:i phone 11 , 
+
+OS/Android Version: 14.4
+
+App Version: 2.2
+
+
+I have attached the video. After 6-7clicks to refresh the date it hangs.",Booking,213500,
 "Hi All,
 This case needs investigation
 - Issue: some member not able to see the singles category for the badminton competition in app or web.
@@ -55,8 +1427,22 @@ U11 Boys Singles - Category full - not visible
 U11 Girls Singles - Category not listed.
 All of the above categories is Active in MMS. Refer attached for reference.
 
-- Investigation results: NIL",Competitions
-"Hi Azimah
+- Investigation results: NIL
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: chia_fu_yong@sport.gov.sg
+Date: 09-03-2021 05:03pm
+To: helpme@iappsasia.com
+Cc: Hussen_YUNUS@sport.gov.sg, esther_tay@sport.gov.sg, LIM_Ah_Huat@sport.gov.sg, Abdul_Rahman_SALIM@sport.gov.sg
+Subject: RE: [CASE:214875] Competition/programme Registration issue
+Hi Azimah
 
 Under 11 Boys single will not show if it has reached maximum capacity.
 
@@ -67,26 +1453,382 @@ register.
 
 The registration was just open at then and we are 100% sure that registration is not full.
 
-I have another NRIC – the daughter of the same father, to seek your assistance to check on: T1420020C",Competitions
-"Hi Helpdesk
-There are 83 members in the attached sheet. To extend their ActiveSG credits with
-expiry date 28 February 2022.
-Please proceed with data patch for the next ontime push, and update once done.
-Password will be send separately.",Credit expiry request
+I have another NRIC – the daughter of the same father, to seek your assistance to check on: T1420020C
+
+Thank you and Best Regards
+
+Fu Yong
+Programming & Partnership | ActiveSG
+
+5 Stadium Drive #03-40 OCBC Arena Singapore 397631
+
+DID: 63425414
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Tuesday, 9 March 2021 4:38 PM
+To: Fu Yong CHIA (SPORT) <CHIA_Fu_Yong@sport.gov.sg>
+Cc: Hussen YUNUS (SPORT) <Hussen_YUNUS@sport.gov.sg>; Esther TAY (SPORT) <Esther_TAY@sport.gov.sg>; Ah Huat LIM (SPORT)
+<LIM_Ah_Huat@sport.gov.sg>; Abdul Rahman SALIM (SPORT) <Abdul_Rahman_SALIM@sport.gov.sg>
+Subject: Re: [CASE:214875] Competition/programme Registration issue
+
+Hi,
+
+Can we check first, will the category tab , eg. U11 Boys Singles, still be visible in web or app if that specific category have reached its maximum number
+of participant?
+
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: chia_fu_yong@sport.gov.sg
+Date: 09-03-2021 12:40pm
+To: helpme@iappsasia.com
+Cc: Hussen_YUNUS@sport.gov.sg, esther_tay@sport.gov.sg, LIM_Ah_Huat@sport.gov.sg, Abdul_Rahman_SALIM@sport.gov.sg
+Subject: [CASE:214875] Competition/programme Registration issue
+Hi Sir/Mdm,
+
+We have encountered issues by our participants where they are unable to see the singles category for the badminton competition that we are organising
+on 16-17 March.
+
+Event: Active School Holiday Badminton Smash
+
+Category issue: U9, U11 boy and girl Singles
+
+We have since directed many participants facing this issue to sign up at Pasir Ris Sport Centre through on site POS registration.
+
+Below is one of the kid’s account that is facing this issue for your checking:
+
+NRIC of a 11 year old kid: T1026168B
+
+Attached is the picture of the child’s account which shows that they cant see the U11 singles category even though they are eligible.
+
+ActiveSG will also be using this system for the upcoming Pesta Sukan Registration and thus we will need to seek help to look into this issue.
+
+Thank you and Best Regards
+
+Fu Yong
+Programming & Partnership | ActiveSG
+
+5 Stadium Drive #03-40 OCBC Arena Singapore 397631
+
+DID: 63425414",Competitions,214875,
 "Hi All,
-This case requires Ontime creation.
-- Issue: Credit Reinstatement
-- Platform: MMS, production
-- Raised by: Yeo Shu Ling, SportSG HQ
-- How to get the problem again?
-Please kindly assist with credit reinstatement, thank you.
-Password: Act!ve5GS5C~",Credit expiry request
+Kindly assist on this issue ; Did not receive parental consent Lincoln Lee T0814100I has enrolled in Hougang U12 soccer U12 season 2,
+awaiting for parent consent.
+But so far I have not receive any email, for enrolment confirmation.
+Name : Lincoln Lee
+ID : T0814100I
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: chorlitlee@gmail.com
+Date: 10/03/2021 02:53pm
+To: helpme@iappsasia.com
+Subject: [CASE:215163] ActiveSG Contact Us
+Dear Sir/Mdm
+My son, Lincoln Lee T0814100I has enrolled in Hougang U12 soccer U12 season 2, awaiting for parent consent.
+But so far I have not receive any email, for enrolment confirmation.
+Please assist. Thank you.
+Regards
+Lee Charles",Competitions,215163,
+"Hi All,
+Kindly assist on this issue ; FA registration issue , unable to register thru online and thru the ipad at Woodlands Sport Centre . Please advise ASAP.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: N4_WOODLANDSSC@sport.gov.sg
+Date: 10/03/2021 04:56pm
+To: helpme@iappsasia.com
+Cc: N4_WOODLANDSSC@sport.gov.sg, Najla_AFIQA@sport.gov.sg, Noor_MOHAMMAD@sport.gov.sg
+Subject: [CASE:215222] RE: AFA registration issue
+Dear Sir ,
+Please refer to the above attachment . Having issue with the AFA registration , unable to register thru online and thru the ipad at Woodlands Sport Centre . Please advise ASAP.
+
+Warmest Regards,
+
+Rosnani Sujari
+Sports Champion
+ActiveSG North | Woodlands Sport Centre
+rosnani_sujari@sport.gov.sg | @activesg.woodlands @activesgwoodlands
+DID 65 62694192 | No 3 Woodlands Street 13 S738600
+
+.
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or have received this email by mistake, please notify the sender and delete the email
+immediately. You must not copy, use or disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or acceptance resulting in binding agreement,
+unless expressly stated otherwise",Competitions,215222,
+"Hi All,
+Kindly assist with the issue ; have given parental consent but have not received the confirmation for payment.
+Name: Luke Yeo , T0828257E
+Prog: Activesg Athletics, 7-16yo, Clementi Stadium, Thurs & Sat
+Parent mobile number : 90300240
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: bleinzy@gmail.com
+Date: 10/03/2021 07:50pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:215244] Confirmation after parental consent
+Hi,
+He is registered as a supplementary account under mine. My mobile is 90300240, his NRIC is T0828257E
+Thank you and regards
+Get Outlook for iOS
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Wednesday, March 10, 2021 6:26:04 PM
+To: bleinzy@gmail.com <bleinzy@gmail.com>
+Subject: Re: [CASE:215244] Confirmation after parental consent
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Kindly provide us with your mobile number and your child's ID so we can check in the system for you.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: bleinzy@gmail.com
+Date: 10/03/2021 06:09pm
+To: helpme@iappsasia.com
+Subject: [CASE:215244] Confirmation after parental consent
+Hi, I have given parental consent but have not received the confirmation for payment.
+Name: Luke Yeo
+Prog: Activesg Athletics, 7-16yo, Clementi Stadium, Thurs & Sat
+
+Prog: Activesg Athletics, 7-16yo, Clementi Stadium, Thurs & Sat
+Pls assist.
+Elizabeth
+83508051",Competitions,215244,
+"Hi All ,
+Kindly assist on this issue ; Parental consent was send to the old email. User has already updated her current email and awaiting for the
+parental consent.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+Date: 15/03/2021 06:35pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:216951] Programme parental consent
+
+Sent from my iPhone
+On 15 Mar 2021, at 6:33 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi ,
+My apologies , may we have the Programme name as well?
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: lamwh.rainee@gmail.com
+Date: 15/03/2021 06:29pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:216951] Programme parental consent
+Child ID: T0906749Z
+The error message is shown the picture attached.
+<6a7edd2a-8579-11eb-b3d2-0673f5a54cf2.png>
+Sent from my iPhone
+On 15 Mar 2021, at 6:23 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Kindly provide us with the child ID and the error message in order for us to assist you further.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: lamwh.rainee@gmail.com
+Date: 15/03/2021 06:15pm
+To: helpme@iappsasia.com
+Subject: [CASE:216951] Programme parental consent
+It was sent to my old email. Can you please help yo send the consent form to my new email
+address which I just updated today? Thanks in advance.",Competitions,216951,
 "Hi All,
 Kindly assist with the following issue.
 User have previously linked his Fitbit to the app and the linking between ActiveSG and Fitbit data was working fine before 20 Feb 2021.
 When he log in to his ActiveSG account, -> GameOn -> Manage tracker -> Fitbit -> Log in -> ""Continue with Google"" (as his preferred login
 method) and nothing happen.
-We have tried to replicate and also faced the same issue. Refer attached screen record of the issue.",GameON
+We have tried to replicate and also faced the same issue. Refer attached screen record of the issue.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: eddiechai2003@yahoo.com
+Date: 02-03-2021 10:22pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:213214] ActiveSG App unable to sync Fitbit issue
+Hi Azimah,
+I only use Google to access Fitbit.
+I never change device.
+Thanks.
+Le mardi 2 mars 2021, 21:29:25 UTC+8, Active SG Helpdesk <helpme@iappsasia.com> a écrit :
+Hi,
+Thank you for the clarification.
+Can we also check if you have used Google as mode of access to the Fitbit via ActiveSG ? Can
+we also check if you have change your devices?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: eddiechai2003@yahoo.com
+Date: 02-03-2021 08:50pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:213214] ActiveSG App unable to sync Fitbit issue
+Hi Azimah,
+
+Hi Azimah,
+I am able to login to Fitbit website directly via Google.
+My email address (yahoo) registered with ActiveSG is different from the email (gmail) I registered
+with Fitbit.
+One thing to note is that: the linking between ActiveSG and Fitbit data was working fine before 20
+Feb 2021 for more than 5 months since Sep 2020. It stopped working after that.
+cid:f3b5fe76-7b55-11eb-a5fa-0673f5a54cf2.png
+
+No change in ActiveSG, Fitbit or Google accounts from me.
+Thanks.
+Sent from Yahoo Mail on Android
+On Tue, Mar 2, 2021 at 6:21 PM, Active SG Helpdesk
+<helpme@iappsasia.com> wrote:
+Hi,
+Can I check if you are able to log in directly into your Fitbit account via Google? Also, can I
+check if your email address registered with your Fitbit / Google account is the same email
+address registered in your ActiveSG account?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: eddiechai2003@yahoo.com
+Date: 01-03-2021 09:26pm
+To: helpme@iappsasia.com
+Subject: [CASE:213214] ActiveSG App unable to sync Fitbit issue
+Hi Team,
+I am facing issue when trying to login to fitbit via the ActiveSG App since 20 Feb 2021.
+
+There is nothing happened when I clicked on the ""Continue with Google"" button.
+Please help.
+Thanks.
+Sent from Yahoo Mail on Android",GameON,213214,
+"Hi All,
+This case requires investigation
+- Issue: User unable to level up in GameOn Nila although the requirements are met
+- Platform: iOS
+- Raised by: Huihan, ActiveSG member
+- How to get the problem again?
+The user is unable to level up in GameOn Nila even though the requirements for the level up are met, as per the below screenshot for user.
+Would you be able to advise?
+Thank you.
+Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: huihanz@gmail.com
+Date: 16/03/2021 10:07pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:216845] Fwd: ActiveSG account points
+Hi Shima,
+Mobile No.: 96284902
+Phone Model: iPhone 11 Pro
+OS/Android Version: 14.4.1
+App Version: 2.21
+
+Regards,
+Huihan
+On Mon, 15 Mar 2021 at 3:10 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please advise us on the following details so that we can check:-
+Mobile No.:
+Phone Model:
+OS/Android Version:
+App Version:
+
+Do share with us a screenshot of the issue as well.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: huihanz@gmail.com
+Date: 15/03/2021 02:44pm
+To: helpme@iappsasia.com
+Subject: [CASE:216845] Fwd: ActiveSG account points
+Hi,
+I'm unable to level up and get more points although next level of goals is met:",GameON,216845,
 "Hi All,
 This case requires investigation
 - Issue: User's steps not syncing, details are as per the below email
@@ -96,7 +1838,94 @@ This case requires investigation
 Please do advise if it would be possible to assist the user with the issue.
 Thank you.
 Regards,
-Zachary",GameON
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Belle_TAN@sport.gov.sg
+Date: 15/03/2021 06:13pm
+To: helpme@iappsasia.com
+Cc: KO_tsz_ting@sport.gov.sg, gerald_leong@sport.gov.sg, Ramasess_RAMAKRISHNAN@sport.gov.sg
+Subject: [CASE:216950] RE: Unable to sync tracker
+Hi Shima,
+
+Nenni is unable to access the app version and Android version as she is not aware how she can do so. Based off her screenshot, the Google
+Fit on her Oppo Reno is synced to the ActiveSG app. However, her phone’s Google Fit is unable to record any steps.
+
+If this issue is beyond helpdesk capability, do let us know how we can advise Nenni. We have given her a holding reply.
+
+Thank you!
+
+From: ActiveSG Helpdesk <helpme@iappsasia.com>
+Sent: Monday, 15 March 2021 3:59 PM
+To: Belle TAN (SPORT) <Belle_TAN@sport.gov.sg>; ActiveSG Helpdesk <helpme@iappsasia.com>
+Subject: Fwd: Unable to sync tracker
+
+Hi,
+
+Please advise us on the following details so that we can check:- and the tracker user is using.
+
+Mobile No.:
+Phone Model:
+OS/Android Version:
+App Version:
+
+Do share with us a screenshot of the issue as well.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+---------- Forwarded message ---------
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Date: Mon, Mar 8, 2021 at 10:40 AM
+Subject: Unable to sync tracker
+To: <nenni00@hotmail.com>
+
+Hi,
+
+Thank you for writing to ActiveSG Technical HelpDesk.
+
+Please update the ActiveSG Android mobile app from the Google Play Store to the latest Version.
+Upon accessing the Step Challenge, if prompted to allow ActiveSG access to Google Fit data,
+please tap “OK” and choose your Google account.
+
+The chosen Google account must match that in use in Google Fit. Within Google Fit Settings, under
+“Google Fit Data”, “Activity detection” and “High accuracy mode” must be switched on, and
+ActiveSG must be listed inside “Apps connected”.
+
+Optional, but please also try this step if the above does not work:
+Settings -> Apps (or Installed Apps) -> ActiveSG -> Clear Cache & Clear Data
+Uninstall and reinstall ActiveSG
+
+If there is a significant discrepancy with your step count, please submit a screenshot of your daily
+step count from the Health app, starting from the day you joined Step Challenge, along with a
+screenshot of your data sources (Health Data -> Activity -> Steps -> Data Sources & Access).
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+
+Thank you.
+
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+
+Symbiosis, Singapore 138633
+Helpline: 65941388",GameON,216950,
 "Hi All,
 This case requires Ontime creation.
 - Issue: transactions for wrong venue but only managed to void one of them. Both transactions were supposed to be under Ang Mo Kio
@@ -104,19 +1933,257 @@ Swimming Complex.
 - Platform: MMS, production
 - Raised by: *(who approved)*, SportSG HQ / Jeremy Sho
 - How to get the problem again?
-transactions for wrong venue but only managed to void one of them. Both transactions were supposed to be under Ang Mo Kio Swimming Complex.",GO Void Transaction
+transactions for wrong venue but only managed to void one of them. Both transactions were supposed to be under Ang Mo Kio Swimming Complex.
+- Investigation results:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click
+here. https://members.myactivesg.com/feedback.
+Best Regards,
+Rodgie
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: Jeremy_SHO@sport.gov.sg
+Date: 01/25/2021 11:06am
+To: helpme@iappsasia.com
+Subject: RE: [CASE:205661] Assistance for data patch 220121 AMKSC
+Hi Shima,
+
+Kindly proceed.
+
+Thank you
+
+Regards,
+Jeremy
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Saturday, 23 January 2021 4:15 PM
+To: Jeremy SHO (SPORT) <Jeremy_SHO@sport.gov.sg>
+Subject: FW: [CASE:205661] Assistance for data patch 220121 AMKSC
+
+Hi Jeremy,
+
+Please kindly assist with approving backend adjustment -transactions for wrong venue but only managed to void one of them. Both transactions were
+supposed to be under Ang Mo Kio Swimming Complex.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+
+Thank you.
+
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Safwan_SUHAIMI@sport.gov.sg
+Date: 23/01/2021 04:00pm
+To: CHEN_Si_Ying@sport.gov.sg, helpme@iappsasia.com
+Cc: Aline_HO@sport.gov.sg, YAP_JianHong@sport.gov.sg, Mohamed_HAIQAL@sport.gov.sg, Pavithra_SUBRAMANIAM@sport.gov.sg,
+Suria_SAAD@sport.gov.sg
+Subject: [CASE:205661] Assistance for data patch 220121 AMKSC
+Hi Si Ying and Helpdesk team,
+
+Please assist to do a data patch for the attached. Did transactions for wrong venue but only managed to void one of them. Both transactions were
+supposed to be under Ang Mo Kio Swimming Complex.
+
+ThankYou and Warm Regards, Have aSporty Day!
+
+Stay connected with Bishan-AMK Sport Centre on our social media platforms!
+
+Facebook | Instagram
+
+Nur Safwan Bin Suhaimi
+Guest Officer
+Bishan Sports Centre | Sport Centre Operation | ActiveSG
+Safwan_SUHAIMI@sport.gov.sg | T.65 6352 6631 | 5 Bishan Street 14, Singapore 579783
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",GO Void Transaction,205661,
 "Hi All
 Please assist with voiding of following transaction
 BOOKING OFFICE : BISHAN SPORTS HALL
 STAFF NAME : NUR SAFWAN BIN SUHAIMI
 DATE PRINTED : Fri 22-Jan-21 09:20 PM
-1.1 $10 ISAAC TOK 20210122RC016838 NETS : 10.00 15:11",GO Void Transaction
+1.1 $10 ISAAC TOK 20210122RC016838 NETS : 10.00 15:11",GO Void Transaction,205661,Duplicate case number
+"Hi All
+Please assist to void receipt 20210215RC020954 for 1 child weekday pool pass and 1 adult weekday pool pass under NETS.
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Jeremy_SHO@sport.gov.sg
+Date: 26/02/2021 05:40pm
+To: helpme@iappsasia.com
+Subject: RE: [CASE:212453] 15 Feb 2021 Discrepancy
+HI Zachary,
+
+Please proceed.
+
+Thank you
+
+Regards,
+Jeremy
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Friday, 26 February 2021 2:09 PM
+To: Jeremy SHO (SPORT) <Jeremy_SHO@sport.gov.sg>
+Subject: FW: [CASE:212453] 15 Feb 2021 Discrepancy
+
+Hi Mr Sho,
+
+Please kindly assist with approving backend adjustment - Void Receipt no. 20210215RC020954 as per below email
+
+Thank you.
+
+Regards,
+Zachary
+
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Nurfazirah_JALIL@sport.gov.sg
+Date: 26/02/2021 10:29am
+To: helpme@iappsasia.com
+Subject: [CASE:212453] 15 Feb 2021 Discrepancy
+Hi Iapps,
+
+On 15th Feb 2021, I have accidentally key-ed in additional 1 Child weekday Pool Pass & 1 Adult Weekday Pool Pass under Nets.
+
+Kindly void Receipt no. 20210215RC020954.
+
+ACM Preethy has approved this request.
+
+Thank you.
+
+Regards
+
+Nurfazirah Jalil
+Guest Officer
+Active SG | Central Zone | Toa Payoh Sports Centre
+
+nurfazirah_jalil@sport.gov.sg | T. 6259 2916 | 301 Lorong 6 Toa payoh Lorong 6 Singapore 319392
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",GO Void Transaction,212453,
+"Hi All,
+This case requires Ontime creation.
+- Issue: Datapach receipt - wrong payment mode
+- Platform: MMS, Production
+- Raised by: Jeremy Sho , SportSG HQ
+- How to get the problem again?
+1) 20210220RC006412
+2) 20210220RC006579
+3) 20210220RC006906
+To amend from Cash to MyCASH
+- Investigation results:
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: Jeremy_SHO@sport.gov.sg
+Date: 08-03-2021 09:07pm
+To: helpme@iappsasia.com, Adlan_BASRI@sport.gov.sg
+Subject: RE: [CASE:214690] Data Patch - Cash Collection in Feb '21.
+Hi Azimah,
+
+Kindly proceed.
+
+Thank you
+Regards,
+Jeremy
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Monday, 8 March 2021 9:00 PM
+To: Jeremy SHO (SPORT) <Jeremy_SHO@sport.gov.sg>; Adlan BASRI (SPORT) <Adlan_BASRI@sport.gov.sg>
+Subject: FW: [CASE:214690] Data Patch - Cash Collection in Feb '21.
+Hi Jeremy,
+Please assist to approve for backend adjustment - Amend receipt (Wrong payment mode).
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Adlan_BASRI@sport.gov.sg
+Date: 08-03-2021 08:53pm
+To: helpme@iappsasia.com
+Cc: mohammed_noor_umar@sport.gov.sg, Melissa_HENG@sport.gov.sg
+Subject: [CASE:214690] Data Patch - Cash Collection in Feb '21.
+Hi Helpdesk
+
+Seek help to data patch Payment Mode “Cash” to “MyCash”.
+
+Report Type Profile ID Created by Receipt Date Collection Venue Receipt No. Payment Mode Amount Collected ($) Remark
+
+Facility 1260515 Muhammad Adlan Bin Hassan Basri 20/2/2021 7:22 Heartbeat @ Bedok ActiveSG Swimming Complex 20210220RC006412 Cash 0.5
+Suppose
+to be
+“MyCash”
+
+Facility 1260515 Muhammad Adlan Bin Hassan Basri 20/2/2021 7:25 Heartbeat @ Bedok ActiveSG Swimming Complex 20210220RC006579 Cash 0.5
+Suppose
+to be
+“MyCash”
+
+Facility 2246983 Muhammad Adlan Bin Hassan Basri 20/2/2021 7:30 Heartbeat @ Bedok ActiveSG Swimming Complex 20210220RC006906 Cash 1.3
+Suppose
+to be
+“MyCash”
+
+Thank you.
+
+Best regards,
+
+Muhammad Adlan
+Sports Champion
+ActiveSG East | Heartbeat @ Bedok Sport Centre
+adlan_basri@sport.gov.sg | T.65 6443 5511 | 11 Bedok North Street 1 #05-02 Singapore 469662
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",GO Void Transaction,214690,Might want to test with actual system cause it contains table
 "Hi All
 Able to assist as user has yet to receive the rollback for the HPB points.
 Thank you.
 Best Regards,
-Ruo Lin",HPB
-"Hi ActiveSG,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: juzleon@gmail.com
+Date: 12/03/2021 06:26pm
+To: helpme@iappsasia.com, hpb_mailbox@hpb.gov.sg
+Subject: [CASE:215805] Re: [CASE:215654] Re: [CASE:200674] Redeem HPB points but not reflected in ActiveSG
+Hi ActiveSG,
 Please loop in the HPB party that you have made the arrangement with.
 Hi HPB,
 Please refer to the email below.
@@ -125,11 +2192,118 @@ Jan 2021. If I remember correctly, the redemption was made 01 Jan 2021.
 Refer to the email below date 29 Jan 2021, ActiveSG has made the arrangement with HPB to rollback the HPB 600 points to my account was
 made in end January 2021, and the Rollback was suppose to be done in the following month, i.e. February 2021.
 It is now March 2021, I have not received the missing 600 HPB points.
-Please advise when will the missing 600 HPB points be rolled back to my account.",HPB
+Please advise when will the missing 600 HPB points be rolled back to my account.
+Thank You.
+On Fri, 12 Mar 2021, 14:19 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing to ActiveSG Technical HelpDesk.
+You may contact HPB in regards to this case as we have already notified them and still awaiting updates from HPB.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: juzleon@gmail.com
+Date: 12/03/2021 07:20am
+To: helpme@iappsasia.com
+Subject: [CASE:215654] Re: [CASE:200674] Redeem HPB points but not reflected in ActiveSG
+Hi
+May I know what is the status of the case?
+It is now mid March. I have yet to see the points credit back into my HPB account, nor the ActiveSG $ in ActiveSG.
+
+It is now mid March. I have yet to see the points credit back into my HPB account, nor the ActiveSG $ in ActiveSG.
+On Wed, 24 Feb 2021, 19:50 Leon, <juzleon@gmail.com> wrote:
+May I know what is the status of the case?
+It is coming to March 2021. I have yet to see the points credit back into my HPB account, nor the ActiveSG $ in ActiveSG.
+On Fri, 29 Jan 2021, 07:54 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi,
+We have reported this issue, HPB is working to return health points to members.
+HPB will notify us after the credit is complete and members can try to redeem it after HPB has credited healthy365 Points to members
+Do note that rollbacks are typically done in the next month.
+Hope this clarifies.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: juzleon@gmail.com
+Date: 26-01-2021 10:02pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:200674] Redeem HPB points but not reflected in ActiveSG
+Hi,
+it is 3 weeks since this was report.
+May I know what is the status?
+On Wed, 13 Jan 2021, 7:38 pm Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Dear Sir/Mdm,
+Thank you for writing to ActiveSG Technical HelpDesk.
+We have forwarded this to our backend team for investigation and are currently waiting for updates.
+We will inform you on the process once we have received an update.
+We apologize for the inconvenience cause and appreciate your kind understanding and patience.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For
+other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Jane
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: juzleon@gmail.com
+Date: 13/01/2021 07:03pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:200674] Redeem HPB points but not reflected in ActiveSG
+Hi,
+May I know if there is any update to the case?
+thanks.
+On Thu, 7 Jan 2021, 17:38 Leon, <juzleon@gmail.com> wrote:
+NRIC: S7324302E
+attached screenshot for your reference.
+Thank you
+On Thu, 7 Jan 2021, 17:30 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+
+On Thu, 7 Jan 2021, 17:30 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Dear Sir/Madam,
+Thank you for writing to ActiveSG Technical HelpDesk.
+
+Kindly provide us with your NRIC and the transaction page of your ActiveSG account.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com.
+For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Alloysuis
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",HPB,215805,
 "Hi All
 Able to assist as user is unable to use SingPass mobile login on her ACtiveSG application.
-Thank you.",Login
-"Hi,
+Thank you.
+Best Regards,
+Ruolin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: peiting5697@gmail.com
+Date: 17/01/2021 01:44pm
+To: helpme@iappsasia.com
+Subject: [CASE:204454] Re: [CASE:204423] Unable to access portal on mobile app
+Hi,
 Thanks for your prompt reply.
 This problem has persisted even after I've deleted/ reinstalled the app many times over the past few months. Please find below the information
 you requested in your last email. I've also attached a screen recording showing the issue on my phone.
@@ -137,36 +2311,3019 @@ Mobile No.: 96583132
 Phone Model: iPhone 6
 OS/Android Version: IOS 12.4.9
 App Version: 2.18
-I'm currently on mobile so there's a chance the email formatting might be messed up - sorry about that.",Login
+I'm currently on mobile so there's a chance the email formatting might be messed up - sorry about that.
+Thank you!
+Best,
+Pei Ting
+Sent from my iPhone",Login,204454,
 "Hi All,
-Kindly assist with the issue; Double deduction",Payment and Receipt
-"Hi Erik
-Have checked Siying's refund list - there was no DDA discrepancy due for refund on 12 feb 2021.
-However, would require your help to check on this case.",Payment and Receipt
+Please kindly assist.
+Issue: Member keyed in the correct account information but still unable to reset her Activesg
+account password. We have tried on our end and also unable to reset her account password on
+the activesg website.
+Mobile: 96235810
+Email: jandckoh@singnet.com.sg
+DOB: 13 Oct 1968
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Yin Tong
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: jandckoh@singnet.com.sg
+Date: 22/02/2021 05:00pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:211441] Can’t log into active SG account
+Please see attached when I try with go forgot password or use SingPass;
+Please advice; thanks
+
+Sent from my iPhone
+On 22 Feb 2021, at 3:21 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Dear Cindy,
+Thank you for writing in to ActiveSg Technical Helpdesk.
+We have checked your account and noted that there is no issue with your Activesg
+account.
+May we check what is the error message you faced when you tried to login to your
+Activesg account? Kindly provide us with a screenshot of the issue so that we may
+assist.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am
+to 10pm) or email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Yin Tong
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: jandckoh@singnet.com.sg
+Date: 22/02/2021 12:10pm
+To: helpme@iappsasia.com
+Subject: [CASE:211441] Can’t log into active SG account
+Hi I tried to login using my Singpass, my email & handphone number all means but still can’t access my active SG
+account; please assist hp96235810 email jandckoh@singnet.com.sg
+Thanks
+Cindy
+Sent from my iPhone",Login,211441,
+"Hi All,
+Kindly assist with the issue; Double deduction
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: shevzhagi786@hotmail.com
+Date: 13/02/2021 07:16pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:209906] Auto-Debit Charge
+Hi Shima,
+The details are as follows:
+Customer Mobile no. (Linked to ActiveSG): 93370814
+Customer Name: Farzaana Begum Binte Abdul Kabir
+Platform: Web / Android / iOS: Android
+Error Message (If any): NIL
+Screenshot of Bank statement: As Attached
+If you used a Credit/Debit card
+First 6 & Last 4 Digits of Credit/Debit Card no.: NIL as I used direct debit from bank.
+Thanks and regards
+Farzaana
+(Hp: 9337 0814)
+
+Get Outlook for Android
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Saturday, February 13, 2021 2:14:46 PM
+To: shevzhagi786@hotmail.com <shevzhagi786@hotmail.com>
+Subject: Re: [CASE:209906] Auto-Debit Charge
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please provide us with the following so that we can investigate further.
+Customer Mobile no. (Linked to ActiveSG):
+Customer Name:
+Platform: Web / Android / iOS:
+Error Message (If any):
+Screenshot of Bank statement:
+If you used a Credit/Debit card
+First 6 & Last 4 Digits of Credit/Debit Card no.:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: shevzhagi786@hotmail.com
+Date: 13/02/2021 01:27pm
+To: helpme@iappsasia.com
+Subject: [CASE:209906] Auto-Debit Charge
+Hi,
+I have booked the facility for the futsal via ACTIVESG App that was charged $29.60.
+I was doubled charged and the credit of $30 went into the Mycash.
+
+Kindly assist in this matter.
+Attached is the receipts.
+Thanks and regards
+Farzaana
+(Hp: 9337 0814)
+Get Outlook for Android",Payment and Receipt,209906,
+"Hi All
+Please assist as the user is unable to use the application to make payment, details are as below.
+Thank you.
+Best Regards,
+Ruolin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: leelianwei@gmail.com
+Date: 20/02/2021 04:31pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:211172] Unable to make payment for bookings
+Hi
+Phone model: motorola one macro
+Android version 9
+App version 2.8.0
+Via mobile data
+Screenshot as attached
+Thank you.
+Regards,
+Lianwei
+On Sat, Feb 20, 2021, 2:49 PM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please advise us on the following details so that we can check: -
+Phone model:
+OS Version:
+App version:
+Mobile data or:
+
+Please provide us with the screenshot of the stuck payment page as well.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: leelianwei@gmail.com
+Date: 20/02/2021 02:45pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:211172] Unable to make payment for bookings
+Hi, I'm stuck in the payment page, and when I press the past button. It is non responsive. My mobile will be 98626776.
+Thank you.
+On Sat, Feb 20, 2021, 2:42 PM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing to ActiveSG Technical HelpDesk.
+
+Thank you for writing to ActiveSG Technical HelpDesk.
+Kindly provide us with the screenshot details of the error message and you mobile number or ID so we can check in the system for you.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+
+From: leelianwei@gmail.com
+Date: 20/02/2021 02:39pm
+To: helpme@iappsasia.com
+Subject: [CASE:211172] Unable to make payment for bookings
+Hi there,
+I am unable to make payment to confirm my bookings on my mobile app. I tried to update my app. But it already seems it is in it's latest
+version.
+Please advise.
+Thank you.
+Regards,
+Lianwei",Payment and Receipt,211172,
+"Hi All
+Able to assist as user is tagged under mother's account as supplementary, and when tried to check out a gym pass under the supplementary
+account, the transaction went through but the receipt would reflect the mother's name instead.
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Christina.Tong@outlook.sg
+Date: 26/02/2021 06:01pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:212235] Receipt reflecting incorrect account
+Jerald Ong Zhong Lin
+T0609257D
+Sent from my iPhone
+On 26 Feb 2021, at 5:33 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing in to the ActiveSG technical helpdesk.
+Please provide us with your child's birth certificate number for us to check.
+Thank you.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to
+10pm) or email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Best Regards,
+Rachel
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Christina.Tong@outlook.sg
+Date: 26/02/2021 05:11pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:212235] Receipt reflecting incorrect account
+Hi Azimah
+The initial lock in was in my name and I had change it to his before I purchased the gym pass.
+We had tried to set up an account his mobile but
+It can’t be done hence I had to purchase the pass with this method.
+Sent from my iPhone
+On 25 Feb 2021, at 1:57 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Christina,
+Can we check if you have log in and switch to your account or when you launch the app, your child
+name already reflected?
+
+name already reflected?
+Also be informed that your child is already above 12 years old, his need to visit any of the nearest
+ActiveSG facilities to update his account type from Supplementary to individual account. He may also
+get assistance to update his account with his own mobile number and email address.
+Hope this clarifies.
+With Best Regards,
+Thank you.
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Christina.Tong@outlook.sg
+Date: 25-02-2021 01:13pm
+To: helpme@iappsasia.com
+Subject: [CASE:212235] Receipt reflecting incorrect account
+
+Hi
+I had purchased a gym pass on behalf of my son Jerald Ong using the ActiveSG
+app. The account used during to booking was his name but when I secure the
+booking, I noticed the receipt was showing my name.
+Please assist to check the booking reservation and advice the next steps as this is
+the 2nd incidents that occured to us. The last one he was rejected entry due to
+incorrect name shown on the reciept as we wasn’t aware we needed to change the
+account. This time, we had changed the account but the receipt still showing in my
+name.
+<6bd40402-7728-11eb-bc7d-0673f5a54cf2.png>
+<6c92b35c-7728-11eb-97a3-0673f5a54cf2.png>
+Please reach me at 96856823 for further clarification.
+Kind regards
+Christina",Payment and Receipt,212235,
+"Hi All,
+Please assist with the issue : Booking went through but no booking
+Customer Mobile no. (Linked to ActiveSG): 90677091
+Customer Name: Lee Ming Sang
+Platform: Web / Android / iOS: android
+Error Message (If any): time out/empty cart but payment went through
+Screenshot of Bank statement:
+If you used a Credit/Debit card
+First 6 & Last 4 Digits of Credit/Debit Card no.:
+First 6: 467870
+Last 4: 3166
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: mingsang@gmail.com
+Date: 06/03/2021 01:11pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:212891] refund required
+Hi ,
+Pls see my response below.
+Regards,
+Liz
+Sent from my Galaxy
+-------- Original message --------
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Date: 28/02/2021 16:03 (GMT+08:00)
+To: mingsang@gmail.com
+Subject: Re: [CASE:212891] refund required
+Dear Liz,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please provide us with the following so that we can investigate further.
+Customer Mobile no. (Linked to ActiveSG): 90677091
+Customer Name: Lee Ming Sang
+Platform: Web / Android / iOS: android
+Error Message (If any): time out/empty cart but payment went through
+Screenshot of Bank statement:
+If you used a Credit/Debit card
+First 6 & Last 4 Digits of Credit/Debit Card no.:
+First 6: 467870
+Last 4: 3166
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Jane
+
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: mingsang@gmail.com
+Date: 28/02/2021 03:58pm
+To: helpme@iappsasia.com
+Subject: [CASE:212891] refund required
+Hi ,
+I called and requested for a refund. The payment went through but the booking wasn't .
+Confirmation from credit card.
+Fr CIMB. Txn of SGD 118.00 was made on your Credit Card XXXX XXXX XXXX 3166 at ACTIVESG SPORT SINGAPO on
+28/02,15:48(Singapore time). Pls dial (+65)6333 6666 for any queries.
+You can contact me at 9067 7091 for further queries.
+Regards,
+Liz
+Sent from my Galaxy",Payment and Receipt,212891,
+"Hi All,
+Kindly assist on this issue ; User cannot see $100 ActiveSG credits in account , purchased
+programme and was not entitled to the 30% off.
+Verified date 2021-03-05 21:43:05.
+Account created , 2014-06-24 01:27:00.
+Mobile no: 9152 9929
+Name: Karen Tay
+Platform: IOS
+Error message: Bank card was charged $110 instead of the $77 (30% discount) reflected at the cart
+out page when signing up for my aikido classes @ Serangoon Stadium.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: karentay397@gmail.com
+Date: 07/03/2021 08:16pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214411] Wrong amount charged for payment
+Hi,
+Here are the details.
+Mobile no: 9152 9929
+Name: Karen Tay
+Platform: IOS
+Error message: Bank card was charged $110 instead of the $77 (30% discount) reflected at the cart out page when signing up for my aikido
+classes @ Serangoon Stadium.
+Attached is a screenshot of the bank statement.
+Thank you.
+Best regards,
+Karen Tay
+
+On 6 Mar 2021, at 9:26 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please kindly assist to fill up the details below for us to investigate.
+Mobile no. (Linked to ActiveSG):
+Name:
+Platform: Web / Android / iOS:
+Error Message (If any):
+If you use Debit card,
+Attached Screenshot of Bank statement or bank reference ID:
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: karentay397@gmail.com
+Date: 06/03/2021 09:22pm
+To: helpme@iappsasia.com
+Subject: [CASE:214411] Wrong amount charged for payment
+Dear Sir/Madam
+My name is Karen Tay (9152 9929), I just made an online payment via activesg to sign up for my aikido classes @
+Serangoon Stadium. At cart out, the amount stated was with the 30% discount at $77, however when I proceeded with the
+payment, my card was charged the full amount of $110, and the receipt received states $110 too.
+I hope to find a solution to this problem and perhaps receive a refund.
+Thank you for your time and I look forward to your reply.
+Best regards,
+Karen Tay",Payment and Receipt,214411,
+"Hi All,
+Kindly assist on this issue ; Amount deducted $10 and $1 via Card but booking not reflected in app as well as the $1 was charged from
+Mycash instead.
+Mobile no. (Linked to ActiveSG): 92748404
+Name: Khoo Yu Zhi
+Platform: Web / Android / iOS: IOS
+Error Message (If any): Nil
+
+If you used a Credit card,
+
+Indicate your First 6 Last 4 Digits of Credit Card no.: 532357 4210
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: tamachan_0x0@hotmail.com
+Date: 08/03/2021 02:20pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:214612] Paid Through Credit Card but there no passes in app inventory
+Mobile no. (Linked to ActiveSG): 92748404
+Name: Khoo Yu Zhi
+Platform: Web / Android / iOS: IOS
+Error Message (If any): Nil
+
+If you used a Credit card,
+
+Indicate your First 6 Last 4 Digits of Credit Card no.: 532357 4210
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Monday, March 8, 2021 2:18 PM
+
+Sent: Monday, March 8, 2021 2:18 PM
+To: tamachan_0x0@hotmail.com <tamachan_0x0@hotmail.com>
+Subject: [CASE:214612] Paid Through Credit Card but there no passes in app
+inventory
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please kindly assist to fill up the details below for us to investigate.
+Mobile no. (Linked to ActiveSG):
+Name:
+Platform: Web / Android / iOS:
+Error Message (If any):
+If you use Debit card,
+Attached Screenshot of Bank statement or bank reference ID:
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.:
+
+As well as the screenshot details of your app under ''My Booking and Passes '' that is not
+reflecting.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Phoebe phoebexie@iappsasia.com
+Subject: Re: FW: [CASE:214612] Paid Through Credit Card but there no passes in app inventory
+Date: 10 March 2021 at 7:19 AM
+To: Active SG Helpdesk helpme@iappsasia.com
+Cc: L2@iappsasia.com
+Hi Helpdesk
+Please provide us the transaction IDs / Receipt screenshots
+Thanks
+Warm Regards,
+Phoebe Xie
+Product Director
+IAPPS Pte Ltd
+3 Fusionopolis Way, Symbiosis #13-25 S(138633)
+[O] 6463 1795 [F] 6778 5300
+Website: www.iappsasia.com
+Facebook: www.facebook.com/iappsasia
+Youtube: www.youtube.com/user/iAPPSasia",Payment and Receipt,214612,
+"Hi All,
+This case requires Investigation.
+- Issue: Error message when clicking send receipt to email
+- Platform: MMS, production
+- Raised by: Roy Leong, SportSG HQ
+- How to get the problem again?
+Roy is unable to send the receipt to email, kindly see attached for the steps and error
+message.
+Please kindly assist, thank you.
+
+Thanks and Best Regards,
+Elizabeth
+From: Roy_LEONG_from.TP@sport.gov.sg
+Date: 09/03/2021 10:36am
+To: helpme@iappsasia.com
+Cc: phoebexie@iappsasia.com
+Subject: [CASE:214834] Error message when click to send receipt to email in MMS
+Morning iapps helpdesk,
+
+I want to send the receipt in the MMS to my email, however the follow message occurs:
+
+Invalid or missing parameters: url is not accessible
+(refer to zip video attachment).
+
+Steps prior ending to this error message:
+1. Go to “Facility”
+2. >> “Outstanding bookings”
+3. >> ‘Pending for Payment”
+4. >> select the transaction to print the receipt (example Vijayanti Hockey Club, invoice 20210304IV000005)
+5. >> “View”
+6. >> under the receipt section,, click “Send to Email”
+
+7. The error message turns out Invalid or missing parameters: url is not accessible
+
+Please kindly assists to address, thanks
+
+Roy Leong
+Executive
+Service Innovation | Experience Excellence Division | ActiveSG
+Roy_LEONG_from.TP@sport.gov.sg | 3 Stadium Drive, Singapore 397630",Payment and Receipt,214834,
 "Hi All,
 Please advice the following inssue.
 GO have wrongly verified the wrong program instances and Zul is asking if we are able to undo the verification so that data is excluded from the
 payment process which is scheduled on the 5th March.
-programme ZUMB1611001-023.",Programmes
-"We need assistance to stop payment for course instance ZUMB1611001-023. This course instance was inactive but our staff mistakenly verified the
+programme ZUMB1611001-023.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Mohammed_zul@sport.gov.sg
+Date: 01-03-2021 05:40pm
+To: azimah@iappsasia.com, helpme@iappsasia.com
+Cc: jocelyn@iappsasia.com, nellynio@iappsasia.com, esther_tay@sport.gov.sg, Abdul_Rahman_SALIM@sport.gov.sg, Jeremy_SHO@sport.gov.sg
+Subject: [CASE:213101] FW: Urgent Stop payment for LTP programme ZUMB1611001-023
+Hi Azimah,
+
+Please assist to check with your developer and Jocelyn.
+
+REQUEST-To cancel the wrongly verified instance in the MMS, so that the data is exculded from the
+payment process scheduled on 5th March
+
+programme ZUMB1611001-023.
+Our team member accidentally verified programme when it have not started. The course instance was inactive.
+2 remaining participants in the course have been submitted for full refund.
+
+Thanks & Best Regards,
+
+Zul
+
+Best regards
+Esther Tay
+Pasir Ris Sports Centre | ActiveSG East
+esther_tay@sport.gov.sg | T.65 6583 9697 | HP. 65 9645 6160 | 120 Pasir Ris Central, Singapore 519640
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Abdul Rahman SALIM (SPORT) <Abdul_Rahman_SALIM@sport.gov.sg>
+Sent: Friday, February 26, 2021 2:44 PM
+To: SPORT QSM (SPORT) <SPORT_QSM@sport.gov.sg>
+Cc: ActiveSG Pasir Ris SC <pasirrissc@gmail.com>
+Subject: Stop payment for LTP programme
+
+Dear All,
+
+We need assistance to stop payment for course instance ZUMB1611001-023. This course instance was inactive but our staff mistakenly verified the
 attendance. The 2 remaining participants in the course instance have been submitted for full refund. This programme did not start so it should not have
-been verified. Thanks!",Programmes
+been verified. Thanks!
+
+Regards,
+A Rahman
+Sport Champion
+ActiveSG East | Pasir Ris Sports Centre
+abdul_rahman_salim@sport.gov.sg | T.65 6583 8557 | M. 65 9181 1231 | 120 Pasir Ris Central #01-13 Singapore
+519640
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",Programmes,213101,
+"Hi All,
+Kindly help to assist with this issue ; programme should be 1.5 hours but receipt states 1hr as per attachment. May we check if it is an error??
+All the programmes starting with
+ActiveSG Canoe Academy
+ActiveSG Hockey Academy
+ActiveSG Athletics Club
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+Date: 10/03/2021 08:31pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:215136] Wrong duration in ActiveSG app
+Hi Shima,
+All the programmes starting with
+ActiveSG Canoe Academy
+ActiveSG Hockey Academy
+ActiveSG Athletics Club
+Thank you.
+Cheryl
+
+Virus-free. www.avg.com
+On Wed, 10 Mar 2021 at 18:14, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+May you provide us with the programme and venue so we can check in the system?
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: cheryltsh@gmail.com
+Date: 10/03/2021 12:55pm
+To: helpme@iappsasia.com, Cheryl_TAY@sport.gov.sg, Jeremy_SHO@sport.gov.sg, Joey_TEO@sport.gov.sg
+Subject: [CASE:215136] Wrong duration in ActiveSG app
+Hi Iapps,
+The programme below is 1.5h but shows as 1h in the summary. The other ActiveSG Academies and Clubs weekly 1.5h programmes have
+the same issue.
+Could you assist please? Thank you.",Programmes,215136,
+"This case requires investigation
+- Issue: Payment done but no booking
+- Platform: MMS, production
+- Raised by: Philynn Tan, ASG member
+- How to get the problem again?
+Ms Pilynn had completed the payment but found out that the booking did not go through.
+Mobile no. (Linked to ActiveSG): 92364818
+Name: Philynn Tan
+Platform: Web / Android / iOS: Web
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.: 542089 0148
+Please kindly assist, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: philynn.tan@gmail.com
+Date: 11/03/2021 08:35pm
+To: Zahari_nawi@sport.gov.sg, helpme@iappsasia.com
+Cc: sport_btgombaksc@sport.gov.sg
+Subject: [CASE:215540] Re: URGENT: Issue with booking of Cardio Sculpt (Peak)
+Hi,
+Below are the detail requested:
+Mobile no. (Linked to ActiveSG): 92364818
+Name: Philynn Tan
+Platform: Web / Android / iOS: Web
+Error Message (If any):
+I
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.: 542089 0148
+Transaction time: 09 Mar, 17:28
+On Thu, Mar 11, 2021 at 8:28 PM Zahari NAWI (SPORT) <Zahari_NAWI@sport.gov.sg> wrote:
+Dear Ms Philynn Tan,
+I have received the following message from our vendor upon your enquiry.
+Please provide the details and send to them at helpme@iappsasia.com
+_________________________________________________________________
+Please kindly assist to fill up the details below for us to investigate.
+Mobile no. (Linked to ActiveSG):
+Name:
+Platform: Web / Android / iOS:
+Error Message (If any):
+If you use Debit card,
+Attached Screenshot of Bank statement or bank reference ID:
+If you used a Credit card,
+Indicate your First 6 Last 4 Digits of Credit Card no.:
+Thank you. Stay Active and Stay Safe.
+
+Zahari (Mr)
+Senior Guest Officer
+ActiveSG West | Bukit Batok & Bukit Gombak Sport Centre
+zahari_nawi@sport.gov.sg | sportsingapore.gov.sg
+T. 6896 2194 / 6561 0939
+Bukit Gombak SC : 810 Bukit Batok West Ave 5, Singapore 659088
+Bukit Batok SC : 2 Bukit Batok Street 22, Singapore 659581
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or have
+received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or disseminate
+the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or acceptance resulting in
+binding agreement, unless expressly stated otherwise.
+
+From: Zahari NAWI (SPORT)
+Sent: Wednesday, 10 March 2021 7:38 PM
+To: 'Philynn Tan' <philynn.tan@gmail.com>
+Cc: SPORT BtGombakSC (SPORT) <SPORT_BtGombakSC@sport.gov.sg>
+Subject: RE: URGENT: Issue with booking of Cardio Sculpt (Peak)
+Dear Ms Philynn Tan,
+From our end, we are unable to find your name in the registration for Bukit Gombak - Cardio Sculpt, Tue 6
+Apr 2021, 6.30pm
+and the class is full.
+We will check with the vendor on the status of your transaction and reply to you once they get back to us.
+Thank you. Stay Active and Stay Safe.
+
+Zahari (Mr)
+Senior Guest Officer
+ActiveSG West | Bukit Batok & Bukit Gombak Sport Centre
+zahari_nawi@sport.gov.sg | sportsingapore.gov.sg
+T. 6896 2194 / 6561 0939
+Bukit Gombak SC : 810 Bukit Batok West Ave 5, Singapore 659088
+Bukit Batok SC : 2 Bukit Batok Street 22, Singapore 659581
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or have
+received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or disseminate
+the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or acceptance resulting in
+binding agreement, unless expressly stated otherwise.
+
+From: Philynn Tan <philynn.tan@gmail.com>
+Sent: Wednesday, 10 March 2021 7:02 PM
+To: SPORT BtGombakSC (SPORT) <SPORT_BtGombakSC@sport.gov.sg>; Tengku DARWIIS (SPORT) <Tengku_DARWIIS@sport.gov.sg>; Zahari NAWI (SPORT)
+<Zahari_NAWI@sport.gov.sg>
+Subject: Re: URGENT: Issue with booking of Cardio Sculpt (Peak)
+I have attached a screenshot of the SMS notification of the transaction as I did not receive any transaction reference
+
+number
+On Wed, Mar 10, 2021 at 6:58 PM Philynn Tan <philynn.tan@gmail.com> wrote:
+Hi,
+I have checked the website again. According to the website, I am not registered for the class and I did not receive any
+receipt.
+However, the transaction is reflected in my credit card statement. I have also called the bank to check.
+Since the class is full, I would like to have this matter resolved as soon as possible.
+Looking forward to hearing from you soon.
+
+On Tue, Mar 9, 2021 at 5:37 PM Philynn Tan <philynn.tan@gmail.com> wrote:
+Hi,
+I would like to confirm my booking of Tuesday's Cardio Sculpt (Peak) class.
+I have made payment and the credit card transaction was done on 9 Mar, 5.28 pm. But I have yet to receive the receipt and the booking was not reflected on web site.
+Please quickly look into this as I would do not wish to skip this class.
+Looking forward to your reply.
+
+--
+Regards,
+Philynn Tan",Programmes,215540,
+"Hi All,
+Kindly assist with the issue : Unknown server trying to book for Aqua programme
+My number: 90515607
+Model: Xiaomi Redmi note 8 pro
+Android : 10
+App: 2.8
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: babesy66@gmail.com
+Date: 15/03/2021 02:42pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:216835] Cannot book session
+I have done all the above steps but still nothing happens but the server error msg.
+My number: 90515607
+Model: Xiaomi Redmi note 8 pro
+Android : 10
+App: 2.8
+Thank you
+On Mon, 15 Mar 2021, 14:20 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi
+Thank you for writing to ActiveSG Technical HelpDesk.
+
+Please uninstall and reinstall the application and try to log in again.
+
+If the issue persists, please advise us on the following details so that we can check:-
+Mobile No.:
+Phone Model:
+OS/Android Version:
+App Version:
+
+Do share with us a screenshot of the issue as well.
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388",Programmes,216835,
+"Hi All,
+Able to assist as member is unable to register her child for season 2 of the football academy programme even though she has already switched
+to her son's account and her son meets the age requirements, details as attached.
+Name: Julio Han Min Luu
+IC no.: T1020994Z
+DOB: 23 Jul 2010
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: aye.tz.min@gmail.com
+Date: 17/03/2021 11:27am
+To: helpme@iappsasia.com
+Subject: [CASE:217377] Re: Registration of ActiveSG program
+Dear Sir/Madam,
+Here’s my son particular
+Name: Julio Han Min Luu
+IC no.: T1020994Z
+DON: 23 Jul 2010
+His previous registration under U12 Football program is attached .
+Regards
+Aye Thazin
+
+On 17 Mar 2021, at 11:16 AM, AYE THAZIN <aye.tz.min@gmail.com> wrote:
+Dear Sir/ Madam,
+My son has attended ActiveSG Football Academy Season One 2021 (Active Cubs U12) at OTH.
+When I’m trying to register Season 2 now, the message popped up “This program is not suitable for you, please refer to
+Programme Target Group for more information”
+I choose same programme that he attended in season one which is U12.
+Appreciate that if you could assist in registering process. I have attached program record for your reference.
+Regards
+Aye Thazin
+Mob 92278464",Programmes,217377,
 "Hi All
 Please advise as member is unable to reset password, and also may we know what is causing this error as member said that the same issue
 was faced last year as well.
 Thank you.
 Best Regards,
-Ruolin",Reset password
-"Hi All
-Please advise as member is unable to reset password, and also may we know what is causing this error as member said that the same
-issue was faced last year as well.",Reset password
-"Hi all
+Ruolin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From:",Reset password,204304,
+"Hi Phoebe,
+Noted, we will share this with our team, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: phoebexie@iappsasia.com
+Date: 10/03/2021 07:12am
+To: helpme@iappsasia.com, L2@iappsasia.com
+Subject: [CASE:215052] NOTE ON SCHOOLS DUS CLOSURE
+Hi all
 Pls see attached excel on closure of schools DUS for booking of facilities
-Thanks",Schools
-"Hi
+Thanks
+Warm Regards,
+Phoebe Xie
+Product Director
+IAPPS Pte Ltd
+3 Fusionopolis Way, Symbiosis #13-25 S(138633)
+[O] 6463 1795 [F] 6778 5300
+Website: www.iappsasia.com
+Facebook: www.facebook.com/iappsasia
+Youtube: www.youtube.com/user/iAPPSasia",Schools,215052,
+"Hi All,
+NSA - Singapore Hockey Federation have received an email that they have successfully OPT-IN for the SEP 2021 programme.
+As organizationn type is NSA, they should not be able to Opt-in grant which are meant for the school. However they received a notification
+that they have successfully Opt in for Grant.
+Please assist to check if they have unknowingly opt in for the grant.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Mohammed_zul@sport.gov.sg
+Date: 25-01-2021 05:14pm
+To: helpme@iappsasia.com
+Subject: RE: [CASE:205542] RE: [CASE:203796] FW: School has successfully OPT-IN for SEP 2021
+
+Hi Azimah,
+
+Please check on the below notification received for the 1st time in my email. How this happened
+Dear Singapore Hockey Federation,
+Thank you for your continued support for SEP.
+We have received your acknowledgement of the SEP School Agreement.
+The School has successfully OPT-IN for the SEP 2021 programme. Please print a copy of the SEP School Agreement as your reference.
+We seek your assistance to ensure that all teachers/personnel overseeing the conduct of SEP programmes adhere to terms and conditions
+stipulated.
+
+Only Schools are required to do the OPT-IN exercise in the SEP portal and did Singapore Hockey
+Federation did the OPT-In?
+
+Thanks & Best Regards,
+
+Zul
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Saturday, 23 January 2021 2:02 PM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Subject: Re: [CASE:205542] RE: [CASE:203796] FW: School has successfully OPT-IN for SEP 2021
+
+Hi Zul,
+
+Just to clarify, are you requesting iApps to check if SHF have opted for the grand in which they should not have any option to OPT-IN for the
+grant, right?
+
+Please advice.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Mohammed_zul@sport.gov.sg
+Date: 22-01-2021 06:31pm
+To: helpme@iappsasia.com
+Subject: [CASE:205542] RE: [CASE:203796] FW: School has successfully OPT-IN for SEP 2021
+
+Hi Azimah,
+
+Yes the OPT-In exercise is for MOE Schools
+
+Thanks & Best Regards,
+
+Zul
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Thursday, 21 January 2021 8:55 AM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Subject: Re: [CASE:203796] FW: School has successfully OPT-IN for SEP 2021
+
+Hi Zul,
+
+NSA can’t do an opt in, it's only meant for school.
+
+Thank you.
+With Best Regards,
+Azimah
+
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Mohammed_zul@sport.gov.sg
+Date: 15-01-2021 12:17am
+To: helpme@iappsasia.com, jocelyn@iappsasia.com, nellynio@iappsasia.com, jeremiah@iappsasia.com, Phoebe_YAW@sport.gov.sg
+Cc: Andrew_NG@sport.gov.sg
+Subject: [CASE:203796] FW: School has successfully OPT-IN for SEP 2021
+
+Hi
+
+Please check on the below notification received for the 1st time in my email.
+
+Only Schools are required to do the OPT-IN exercise in the SEP portal and did Singapore Hockey
+Federation did the OPT-In?
+
+Thanks & Best Regards,
+
+Zul
+
+From: no-reply@iappsasia.com <no-reply@iappsasia.com>
+Sent: Thursday, 14 January 2021 11:19 AM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Subject: School has successfully OPT-IN for SEP 2021
+
+Dear Singapore Hockey Federation,
+Thank you for your continued support for SEP.
+We have received your acknowledgement of the SEP School Agreement.
+The School has successfully OPT-IN for the SEP 2021 programme. Please print a copy of the SEP School Agreement as your reference.
+We seek your assistance to ensure that all teachers/personnel overseeing the conduct of SEP programmes adhere to terms and conditions
+stipulated.
+Thank you.",SEP,205542,
+,SEP,211415,??? Whats going on ???
+"Hi All,
+This case requires investigation.
+- Issue: Payment cleared but status shows Pending Payment
+- Platform: MMS, production
+- Raised by: Roy Leong, SportSG HQ
+- How to get the problem again?
+The payments below already shows payment cleared and they were able to generate receipt but in the system it still states as pending
+payment.
+Please kindly advise, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: Roy_LEONG_from.TP@sport.gov.sg
+Date: 23/02/2021 03:17pm
+To: helpme@iappsasia.com
+Subject: [CASE:211751] Payment cleared & Receipt Generated - System status ""Pending Payment""
+To Helpdesk,
+
+Hi, for the following invoices (as per screen shot), the payment has been proceed & cleared with recipient generated; however in the MMS system it still reflects these invoices as ""Pending Payment"" status.
+
+Please kindly assist to address these errors, thanks.
+
+Affected invoices and reference
+
+Invoice Nr Date Hirer MMS Status Remarks Receipt
+20210108IV000032 8-Jan-21 MARYMOUNT CONVENT SCHOOL Pending for Payment Already cleared payment on 16 Feb 20210216PY016265
+20210202IV000009 2-Feb-21 Kampong Chai Chee CSC Pending for Payment Already cleared payment on 19 Feb 20210219PY009019
+
+Roy Leong
+Executive
+Service Innovation | Experience Excellence Division | ActiveSG
+Roy_LEONG_from.TP@sport.gov.sg | 3 Stadium Drive, Singapore 397630",SEP,211751,
+"From: Mohammed_zul@sport.gov.sg
+Date: 23/02/2021 02:34am
+To: helpme@iappsasia.com
+Cc: rasidah.caudal@piloxing.com
+Subject: RE: [CASE:209991] Re: [CASE:207448] Need help with my activesg service provider page
+
+Hi Azimah,
+
+As per previous issues, try to remove the SP old registration and then request SP to re register both
+her SP and coach profiles
+
+Thanks & Best Regards,
+
+Zul
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Tuesday, 16 February 2021 9:50 AM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Cc: rasidah.caudal@piloxing.com
+Subject: Re: [CASE:209991] Re: [CASE:207448] Need help with my activesg service provider page
+
+Hi Zul,
+
+Can advice on this?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 16-02-2021 07:46am
+To: helpme@iappsasia.com
+Subject: Re: [CASE:209991] Re: [CASE:207448] Need help with my activesg service provider page
+Hi Azimah,
+
+Zul has contacted me that he cannot see my certificates and updated First Aid, CPR AED Certificates on my service provider page even though
+i have updated them .
+
+He thinks that it might be the difference in my name on the certificates and my NRIC.
+My Nric name is Rasidah Binte Mohamad Khalid Mrs Rasidah Caudal and the name on the certificates is Rasidah Caudal.
+
+Could you please help me with this? I have been teaching at Activesg sport Centres for many years and I did not know that I have been having
+this problem until i wanted to add a new program.
+
+Is there someone that I could see to settle this?
+
+I really would like to start the new program in March. I still could not add any job to my page .
+
+Thank you.
+
+Warm regards,
+Rasidah Caudal
+Senior Master Trainer Asia
+PILOXING Academy, LLC
+
+On Mon, Feb 15, 2021 at 4:49 PM Rasidah Caudal <rasidah.caudal@piloxing.com> wrote:
+
+On Mon, 15 Feb 2021 at 10:56 AM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Rasidah,
+
+Can we check if you did your first aid course together with your CPR/AED therefore you only have 1 combined cert?
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 14-02-2021 08:41pm
+To: helpme@iappsasia.com, Mohammed_zul@sport.gov.sg
+Subject: [CASE:209991] Re: [CASE:207448] Need help with my activesg service provider page
+Hi Azimah,
+
+I have updated my first aid , CPR and AED certificate.
+
+I am no longer teaching Zumba and i did not state it in my service provider.
+
+Can i please be able to finally add a new program?
+
+Thank you.
+
+Warm regards,
+Rasidah Caudal
+
+On Mon, Feb 1, 2021 at 8:39 PM Rasidah Caudal <rasidah.caudal@piloxing.com> wrote:
+Hi Azimah,
+
+Ok thank you.
+
+I will do it and let you know.
+
+Warm regards,
+Rasidah
+
+On Mon, 1 Feb 2021 at 7:31 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Rasidah,
+
+We have checked, you are required to submit valid 1ST AID CERT, Zumba cert and documents in your coach account. Based
+on your coach profile, your eligibility is still pending as cert not updated.
+
+Once you have update your First aid and other relevant cert, do revert back to us so we can check.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 01-02-2021 06:35pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:207448] Need help with my activesg service provider page
+
+Hi Azimah,
+I am outside at the moment. I will send tomorrow.
+Anyway, when I click on Program tab, I only have view job and no job is listed.
+
+According to Zul, I am already listed as service provider.
+
+My mobile is 96427756
+
+Warm regards,
+Rasidah
+
+On Mon, 1 Feb 2021 at 6:08 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Rasidah,
+
+Can you take a screenshot of the Program Tab and the listing that are shown under the tab?
+
+Also can we check, if you click on ""My Account"" does the ""Register as Service Provider"" tab listed?
+
+Please include your mobile number as well so we can check your account.
+
+Apologised for the inconvenience.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 01-02-2021 05:52pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:207448] Need help with my activesg service provider page
+
+Hi Azimah,
+Thanks for your reply .
+There is not error prompt.
+It just say view job.
+
+Warm regards,
+
+Warm regards,
+Rasidah
+On Mon, 1 Feb 2021 at 5:35 PM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Rasidah,
+
+Can we check if there is any error prompt when trying to add programme or the ""add Job"" button is not reflected for you
+to create program?
+
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 01-02-2021 04:42pm
+To: helpme@iappsasia.com
+Cc: Mohammed_zul@sport.gov.sg
+Subject: [CASE:207448] Need help with my activesg service provider page
+Dear Sir /Madam,
+
+I have been asked my Mr Zul to ask the Helpdesk to check my Activesg page.
+I am unable to add any programme to my page.
+Kindly assist me with this matter .
+
+Thank you very much.
+
+Warm Regards,
+Rasidah Caudal
+
+Rasidah Caudal
+Senior Master Trainer Asia
+Piloxing Academy, LLC",Service Provider,209991,
+"Hi All,
+SP not able to create program as the add job button is not visible on her end. Not sure if its because her coach profile indicate as pending under
+coach eligibility. She also have other program which she no longer conducting lesson and wish to delete those program. Zul suggest to delete
+her old SP account and get her to re-register again. Please advice if ontime is required so that we can get Zul to approve for backend
+adjustment.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 22-02-2021 07:35am
+To: helpme@iappsasia.com
+Subject: Re: [CASE:211020] Fwd: [CASE:207491] Fwd: Applying for a new program
+Hi Azimah,
+I am only using PILOXING with Master Trainer Rasidah. The sports centre has been using this for my PILOXING class.
+Right now, I would like to add other programs
+PILOXING Booty with Master Trainer Rasidah
+PILOXING Knockout with Master Trainer Rasidah
+PILOXING Barre with Master Trainer Rasidah
+The Mix by PILOXING with Master Trainer Rasidah.
+I am no longer teaching the other programs. So, please help me to remove them.
+Thank you.
+Warm regards,
+Rasidah Caudal
+On Sat, Feb 20, 2021 at 10:44 AM Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Rasidah,
+Can I check which Program do you want to create?
+Our record show that there are list of existing program with code attached, pending to be endorsed.
+Let me know and I will check if the program code still valid.
+Best of Dance Fitness - Masala Bhangra Workout, Bokwa & Zumba - Pending
+Best of Dance Fitness - Masala Bhangra Workout, Bokwa & Zumba - Pending
+Best of Dance Fitness - Masala Bhangra Workout, Bokwa & Zumba - Pending
+Best of Dance Fitness - Masala Bhangra Workout, Bokwa & Zumba - Pending
+Best of Dance Fitness - Masala Bhangra Workout, Bokwa & Zumba - Pending
+Best of Dance Fitness Trial - Pending
+Dance Fitness For Kids (KpopX®, Zumba®, Bokwa®) - Pending
+Dance Fitness For Kids (Masala Bhangra® & Bokwa®) - Pending
+Masala Bhangra Workout - Pending
+Masala Bhangra Workout - Pending
+Masala Bhangra Workout - Pending
+Masala Bhangra Workout - Pending
+Masala Bhangra Workout Trial - Pending
+Masala Bhangra Workout Trial - Pending
+Masala Bhangra® Workout - Pending
+PILOXING - Pending
+PILOXING Trial - Pending
+PILOXING Trial - Pending
+PILOXING® - Pending
+PILOXING® - Pending
+PILOXING® with Master Trainer Rasidah Caudal - Pending
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: azimah@iappsasia.com
+Date: 19-02-2021 08:45pm
+To: helpme@iappsasia.com
+Subject: [CASE:211020] Fwd: [CASE:207491] Fwd: Applying for a new program
+---------- Forwarded message ---------
+From: Rasidah Caudal <rasidah.caudal@piloxing.com>
+Date: Fri, Feb 19, 2021 at 4:15 PM
+Subject: Re: [CASE:207491] Fwd: Applying for a new program
+To: Azimah <azimah@iappsasia.com>
+Hello Azimah,
+Right now, I still have not managed to have new programs added to my service provider page.
+I contacted Zul again but he can’t help too and he asked me to call you . I tried to call you with the general number.
+I hope you will not ask Zul to look at it and then Zul will ask me to ask you.
+Can u tell me, what I can do about this.
+No one seems to be able to help me.
+Is there anyway that I can report this ?
+Thank you
+Warm regards,
+Rasidah Caudal
+
+On Mon, 1 Feb 2021 at 6:48 PM, Rasidah Caudal <rasidah.caudal@piloxing.com> wrote:
+Hi Azimah,
+My mobile number is
+96427756
+Rasidah
+On Mon, 1 Feb 2021 at 6:41 PM, Azimah <contactus@iappsasia.com> wrote:
+Hi Rasidah,
+Can you provide your mobile number so I can check your account?
+Thank you.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: rasidah.caudal@piloxing.com
+Date: 01-02-2021 05:53pm
+To: helpme@iappsasia.com
+Subject: [CASE:207491] Fwd: Applying for a new program
+Hi Azimah,
+Here are what I see.
+Thanks.
+Rasidah
+---------- Forwarded message ---------
+From: Rasidah Caudal <rasidah.caudal@piloxing.com>
+Date: Wed, 27 Jan 2021 at 3:27 PM
+Subject: Re: Applying for a new program
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Hi Zul,
+I have been trying to add programme but whenever i tried, i did not have any option to do that.
+Please find attached on what i see when i tried to add programme. I only have the option view job , nothing else.
+I hope that you can help me with this.
+Warm regards,
+
+Warm regards,
+Rasidah Caudal
+On Tue, Jan 26, 2021 at 7:13 PM Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg> wrote:
+
+Hi Rasidah,
+
+You need to ADD a new programme in the PUBLIC programme.
+
+Thanks & Best Regards,
+Zul
+
+From: Rasidah Caudal <rasidah.caudal@piloxing.com>
+Sent: Tuesday, 26 January 2021 4:31 PM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Subject: Re: Applying for a new program
+Hi Zul,
+Thank you for your prompt reply.
+I have added my new certificates. I would like to start PILOXING Booty class . How do i get the code for this?
+Warm regards,
+Rasidah
+On Mon, Jan 25, 2021 at 7:46 PM Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg> wrote:
+
+Hi Rasidah,
+
+You are a registered Service provider. Please see the attached User Guide
+
+Thanks & Best Regards,
+Zul
+
+Zul
+
+From: Rasidah Caudal <rasidah.caudal@piloxing.com>
+Sent: Monday, 25 January 2021 10:13 AM
+To: Mohammed Zulkifli ABU BAKAR (SPORT) <Mohammed_Zul@sport.gov.sg>
+Subject: Applying for a new program
+Hello Zul,
+I have just realised that i have not registered as a service provider all this while even though i have been teaching at Activesg for a
+long time.
+Could you please check my registration?
+I have just applied and would like to add program to my list.
+
+Thank you
+warm regards,
+Rasidah Caudal",Service Provider,211020,
+"Hi All,
+This case needs investigation
+- Issue: SP data were not captured during the MMS/FMAS data interface
+- Platform: MMS , Production
+- Raised by: Mohammed Zul, SSG HQ
+- How to get the problem again?
+SP data were not captured during the MMS/FMAS data interface and resulted to perform out of system payment on SSG end.
+- Investigation results: NIL
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: zul.zulkifli@outlook.sg
+Date: 02-03-2021 09:58pm
+To: SPORT_FINANCE_SUPPLIERCREATION@sport, Lee_chee_Meng@sport.gov.sg, helpme@iappsasia.com, Mohammed_zul@sport.gov.sg
+Cc: Kwai_Hwa_CHOO_from.STEE@sport.gov.sg, joceyyn@iappsasia.com, nellynio@iappsasia.com, Andrew_NG@sport.gov.sg, Jeremy_SHO@sport.gov.sg
+Subject: [CASE:213487] RE: Service Provider - supplier IDs, vendor ID and Vendor site ID
+The SP data were not captured during the MMS/FMAS data interface.
+Please check the SP IDs as we have been paying by the “out of system” PV for many months. THANKS
+5160 TAN EK SIN GENERAL A/C 44040 54633 KHATIJAH_KAMSANI LTP INSTRUCTOR 08/01/2020
+
+MMS SP listing are updated with the same IDs
+
+Regards
+Mohammed Zulkifli",Service Provider,213487,
+"Hi All,
+This case requires Ontime creation.
+- Issue: Change Stage
+- Platform: MMS, production
+- Raised by: Farris Rahman, SportSG HQ
+- How to get the problem again?
+The current stages for the students below need to be amended, please kindly assist, thank you.
+Password for the excel sheet containing student's details: PW:23O22O2I
+
+Thanks and Best Regards,
+Elizabeth
+From: Muhammad_FARRIS_from.TP@sport.gov.sg
+Date: 23/02/2021 12:13pm
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg
+Subject: RE: [CASE:211703] Assistance with amendments to assessment in MMS
+Hi Jane,
+
+I have attached the students’ information in the encrypted excel attached. [PW:23O22O2I]
+
+S/N Assessment Code Nature of problem Changes to be made
+
+1 MI6JOBJR Amendments to individual
+student’s stage.
+
+Amend the levels from level 6 to Level 5 for the
+following students:
+
+Ayden Lim
+
+Fatin Nadia Bte Md Farhan
+
+Fatin Natasha Bte Md Farhan
+
+Lai Yi Kai
+
+Ram Ganesh
+
+2 W5KHSGGO User unable to generate E-
+Certificate
+
+Allow for user to generate SwimSafer Stage 5 –
+Silver for Ong En Min, Faith.
+
+3 OFVZFXK5 Amendments to individual
+student’s stage.
+
+Amend Stage from Stage 3 to Stage 2
+
+Chung Wei Yang, Kayden
+
+4 5GRJPT3U Amendments to individual
+student’s stage.
+
+Amend Stage from Stage 1 to Stage 2
+
+Laya Jayachandran
+
+Warm regards,
+
+Farris
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Tuesday, 23 February 2021 10:49 AM
+To: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Cc: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Subject: Re: [CASE:211703] Assistance with amendments to assessment in MMS
+
+Dear Farris Rahman,
+
 Thank you for writing to ActiveSG Technical HelpDesk.
-For further enquiries you may contact the Sport Centre in charge of the slots release booking and check how many slots they open for booking. For Bowen Secondary School Hall you may contact them here at
-6315 8671.",
+
+Please kindly provide us with the following for each student so that we will be able to assist you:
+
+Assessment Code:
+Student name:
+B/C number:
+Date of Birth:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click
+here. https://members.myactivesg.com/feedback.
+
+Thank you.
+With Best Regards,
+Jane
+
+ActiveSG Technical Helpdesk
+
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Muhammad_FARRIS_from.TP@sport.gov.sg
+Date: 23/02/2021 10:00am
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg
+Subject: [CASE:211703] Assistance with amendments to assessment in MMS
+Hi Helpdesk,
+
+I will require your assistance with the following:
+
+S/N Assessment Code Nature of problem Changes to be made
+
+1 MI6JOBJR Amendments to individual
+student’s stage.
+
+Amend the levels from level 6 to Level 5 for the
+following students:
+
+Ayden Lim
+
+Fatin Nadia Bte Md Farhan
+
+Fatin Natasha Bte Md Farhan
+
+Lai Yi Kai
+
+Ram Ganesh
+
+2 W5KHSGGO User unable to generate E-
+Certificate
+
+Allow for user to generate SwimSafer Stage 5 –
+Silver for Ong En Min, Faith.
+
+3 OFVZFXK5 Amendments to individual
+student’s stage.
+
+Amend Stage from Stage 3 to Stage 2
+
+Chung Wei Yang, Kayden
+
+4 5GRJPT3U Amendments to individual
+student’s stage.
+
+Amend Stage from Stage 1 to Stage 2
+
+Laya Jayachandran
+
+Warm regards,
+
+Farris Rahman
+Temporary Executive
+Academies and Clubs | ActiveSG
+Muhammad_FARRIS_from.TP@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+.
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.",Swimsafer,211703,(Change stage or venue)
+"Hi All,
+This case needs investigation
+- Issue: Unable to book 2 different stages in the same assessment reference.
+- Platform: MMS, production
+- Raised by: Michelle Verma, Swimsafer coach
+- How to get the problem again?
+Michelle Verma is unable to book 2 different stages in the same assessment reference.
+She wants to do 2 different stages in one assessment
+If she were to separate the stages, she doesn't have enough students, because 1 assessment needs min. 5 pax
+Can the assessor create a single assessment with 2 different stages?
+Please see email thread for more info, thank you.
+
+Michelle Verma's first email:
+1. Unable to book 2 cross levels in the same assessment reference.
+2. if i try to book them separately, it indicated there needs to be a min of 5pax. Previously it was 3 pax. The 5 pax rule
+applies for a conjoined 2 stage (i.e 6 S1 and 1 S2). This is what I am trying to do.
+
+Thanks and Best Regards,
+Elizabeth
+From: michelle.verma@ymail.com
+Date: 25/02/2021 01:49pm
+To: helpme@iappsasia.com, Jayme_JACOB@sport.gov.sg, Muhammad_FARRIS_from.TP@sport.gov.sg
+Cc: Alvin_LEE@sport.gov.sg, Sport_SwimSafer@sport.gov.sg, mohamed_faisal_abdul_latiff@sport.gov.sg
+Subject: Re: [CASE:212198] Attn: Ying Tong Re: Booking of S1 & S2/ S3 & 4 and S5/6 in a same booking form
+Dear All,
+These are the bookings I am trying to create with number of pax to clarify it. Please do let me know if I could send the CSV file manually and safely as they contain NRIC
+number of the kids. I would really need an assessor for these assessments.
+S1 Landridge (6pax) and S2 Landridge (1pax) 15/3 (Mon) 6-7pm
+S5 Landridge (5pax) and S6 Landridge (1 pax) 15/3 (Mon) 5-6pm
+S1 (5pax) ESTA 10/3 (Wed) 5-6pm - Has been booked but no assessor.
+S1 Queenstown (3 pax) and S2 Queenstown (3pax) 12/3 (Fri) 5-6pm
+S3 Queenstown (3 pax) and S4 Queenstown (5pax) 9/4 (Tues) 5-6pm - (Have booked S4 and examiner appointed is Goh Hock Lye. Unable to add the S3 candidates,
+therefore lost as to how is the examiner going to have the list of my S3s.)
+S5 (7pax). 12/3 (Tues) 4-5pm- Booked and examiner appointed is Goh Hock Lye.
+Michelle Verma
+90697606
+On 25 Feb 2021, at 11:10 AM, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Hi Michelle,
+Thank you for the information.
+Will forward this to our developers to check. Before we forward to them, can you provide us with screenshot of the error prompt for us to replicate user
+interface?
+Apologised for the inconvenience.
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: michelle.verma@ymail.com
+Date: 25-02-2021 10:05am
+
+Date: 25-02-2021 10:05am
+To: Jayme_JACOB@sport.gov.sg, helpme@iappsasia.com
+Cc: Muhammad_FARRIS_from.TP@sport.gov.sg, Alvin_LEE@sport.gov.sg, Sport_SwimSafer@sport.gov.sg,
+mohamed_faisal_abdul_latiff@sport.gov.sg
+Subject: Re: [CASE:212198] Attn: Ying Tong Re: Booking of S1 & S2/ S3 & 4 and S5/6 in a same booking form
+Last email sent was 5 in 2 stage by Matthew Tan. Anyways. I do have more than 6 in
+2 stages. That's not the issue. The issue is booking it together and not being able to
+filter it.
+
+Summary of issue for now that SportSG is informed of
+1. Problem with S1 (6pax) and S2 ( 1pax) on 15/3 5.30-6.30pm at Landridge Condo.
+Can’t combine. Tried separate. Error is min 5 pax
+2. Problem with S5 (6pax) and S6 ( 1 pax) on 15/3 5.30-6.30pm at Landridge Condo.
+Can’t combine. Tried separate. Error is min 5 pax
+3. Problem with S1 (3pax) and S2(3 pax) on 12/3 Friday 5-6pm at Queenstown. Error
+is min 5 pax and cant combine.
+4. Problem combining S3 (3 pax) with S4 (booked) at Queenstown 9/3 on Tuesday
+5-6pm . Need to have these two combined. This was advised initially by IAPPS
+5. They couldn’t detect Queenstown Swim Complex in Venue. I had to put it under
+others.
+On Thursday, 25 February 2021, 09:49:17 am SGT, Active SG Helpdesk <helpme@iappsasia.com>
+wrote:
+Hi Michelle,
+You may book 2 stage in 1 assessment with the minimum of 6 pax.
+Not sure there is any changes to the booking criteria or policies. The last information sent to us dated
+August 2019 - Refer below UPDATES ON SWIMSAFER SERVICE PROVIDER PORTAL AND PDPA
+RULING.
+Have loop +Jayme_JACOB@sport.gov.sg in for advice if there were any changes made since the last
+announcement.
+Dear SwimSafer Service Providers, Instructors & Assessors,
+Since the launch of SwimSafer 2.0 portal in 2018, we have received numerous feedback on user interface and system related issues.
+With your valuable feedback, we have reviewed and will introduce these major updates to meet the system gaps, and to improve transparency and
+accountability.
+This is the 1st phase of system updates/changes, Phase 2 is currently on-going, this will be updated to all in due course.
+The key changes/updates are as listed below.
+Please be informed that the key changes/updates will be implemented with effect dated on the 29 August 2019.
+KEY CHANGES LISTING
+1. There is now a minimum booking of 6 participants for all swimsafer
+assessment. (*This rule does not applies to MOE School Programme).
+2. The “Assessment End Time” will be removed at the “Create Assessment
+page” and all assessments will be fixed at 1 hour duration.
+3. The grouping combinations allowed for each assessment are as shown:
+Stage Min Participants Total Students
+allowed per
+grouping
+
+Assessors
+
+Stage 1 & 2 6 30 students 1
+Stage 3 & 4 6 20 students 1
+Stage 5 & 6 6 10 students 1
+4. The “Cheque” payment mode will be removed. Please submit all your
+outstanding cheque payment to Sport Singapore, if any, asap (Please refer to the
+
+end of the email for the steps to make payment to us). All swimsafer assessment
+payment will be via “Credit/Debit Card” payment mode.
+5. All swimsafer assessments successfully booked from 12 midnight to
+8pm will only be published in the system for assessor bidding at 10pm.
+6. The assessment job email notifications to all assessors will be removed.
+7. Assessors are only allowed to bid for 1 assessment job for every 1 hour.
+Example 1:
+If you have bided for 9am assessment job at Bukit Batok Swimming Complex.
+You will not be able to bid for other assessments from 9am to 10am. You can only
+bid for assessment with start time before 9am or after 10am onwards.
+Example 2:
+If you have bided for 10.15am assessment job at Queenstown Swimming Complex.
+You will not be able to bid for other assessments with the similar start time from
+10.15am to 11.15am. You can only bid for assessment with start time before
+10.15am or after 11.15am onwards.
+Hope this clarifies.
+
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: michelle.verma@ymail.com
+Date: 25-02-2021 09:13am
+To: Jayme_JACOB@sport.gov.sg, helpme@iappsasia.com
+Cc: Muhammad_FARRIS_from.TP@sport.gov.sg, Alvin_LEE@sport.gov.sg,
+Sport_SwimSafer@sport.gov.sg, mohamed_faisal_abdul_latiff@sport.gov.sg
+Subject: [CASE:212198] Attn: Ying Tong Re: Booking of S1 & S2/ S3 & 4 and S5/6 in a same booking
+form
+Dear Yintong,
+Please see as attached.
+The min for 1&2 is 5 pax.
+Is there anyone who can hasten this up. I have been 4 days delayed and i cant afford to push the
+assessment dates back. If there is any other temporial alternative i.e sending the CSV files manually to
+the swimsafer team for you guys to do the bookings back end?
+Please at least give me a call.
+
+On 24 Feb 2021, at 4:56 PM, Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+wrote:
+Hi Michelle,
+
+We’re awaiting a response from our IT team regarding this as it seems to be a technical
+issue.
+
+Appreciate your patience on the matter.
+
+Thank you.
+
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+<image002.jpg>
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: MICHELLE VERMA <michelle.verma@ymail.com>
+Sent: Wednesday, 24 February 2021 1:24 PM
+To: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Cc: Alvin LEE (SPORT) <Alvin_LEE@sport.gov.sg>; SPORT swimsafer (SPORT)
+<SPORT_swimsafer@sport.gov.sg>; Jayme JACOB (SPORT)
+<Jayme_JACOB@sport.gov.sg>
+Subject: Re: Booking of S1 & S2/ S3 & 4 and S5/6 in a same booking form
+
+Hi all any updates?
+
+On Tuesday, 23 February 2021, 10:24:49 am SGT, Muhammad FARRIS from.TP (SPORT)
+<muhammad_farris_from.tp@sport.gov.sg> wrote:
+
+Hi Michelle,
+I am currently checking in on the issues you raised below. I will get back to you as soon
+as I am able to.
+Regards,
+Farris
+
+-----Original Message-----
+From: Michelle Verma <michelle.verma@ymail.com>
+Sent: Tuesday, 23 February 2021 9:37 AM
+To: SPORT swimsafer (SPORT) <SPORT_swimsafer@sport.gov.sg>; Jayme JACOB
+(SPORT) <Jayme_JACOB@sport.gov.sg>; Muhammad FARRIS from.TP (SPORT)
+<Muhammad_FARRIS_from.TP@sport.gov.sg>
+Cc: Alvin LEE (SPORT) <Alvin_LEE@sport.gov.sg>
+Subject: Booking of S1 & S2/ S3 & 4 and S5/6 in a same booking form
+Dear Jayme,
+I am having some issue with the booking system online.
+I am
+1. Unable to book 2 cross levels in the same assessment reference.
+2. if i try to book them separately, it indicated there needs to be a min of 5pax. Previously
+it was 3 pax. The 5 pax rule applies for a conjoined 2 stage (i.e 6 S1 and 1 S2). This is
+what I am trying to do.
+Perhaps you could reach out to me a 90697606 as I don’t want to delay any of the
+bookings.
+Cheers.
+Michelle",Swimsafer,212198,??? Whats going on ???  (Change stage or venue)
+"Hi All,
+This case requires Ontime creation.
+- Issue: Wrong stage
+- Platform: MMS, production
+- Raised by: Farris Rahman, SportSG HQ
+- How to get the problem again?
+Student's stage needs to be amended from Stage 1 to Stage 3, please kindly assist, thank you.
+PW: Jayna123
+Assessment code: X9YT0FN7
+
+Thanks and Best Regards,
+Elizabeth
+From: Muhammad_FARRIS_from.TP@sport.gov.sg
+Date: 26/02/2021 11:26am
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg, mohamed_faisal_abdul_latiff@sport.gov.sg
+Subject: [CASE:212472] FW: X9YT0FN7: change of stage
+Hi Helpdesk,
+
+Will require your assistance to change the individual level for the following student. Student details are attached to the encrypted email (PW:
+Jayna123)
+We seek your understanding to expedite this issue as the assessment will take place next Monday (1st March 2021).
+
+Student: KOH JIA YI, JAYNA
+Change required: Stage 3
+
+Warm regards,
+Farris
+
+From: Coach Joseph Seah <coach.joe.seah@gmail.com>
+Sent: Friday, 26 February 2021 9:18 AM
+To: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Cc: Mohamed Faisal ABDUL LATIFF (SPORT) <Mohamed_Faisal_ABDUL_LATIFF@sport.gov.sg>; Joseph Seah
+<coach.joe.seah@gmail.com>
+Subject: X9YT0FN7: change of stage
+
+Dear Farris,
+
+We are requesting for a change of stage from Stage 1 to Stage 3 for the following:
+KOH JIA YI, JAYNA
+The Assessment will be on coming Monday at Katong (1st March) .
+
+--
+Thank You
+
+Regards
+Joe Seah
+8200 6990",Swimsafer,212472,
+"Hi All,
+We require your kind assistance in the following request, details as attached.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: sttitudesports@gmail.com
+Date: 01/03/2021 01:10pm
+To: Alvin_LEE@sport.gov.sg, helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg, Muhammad_FARRIS_from.TP@sport.gov.sg
+Subject: [CASE:213050] Fwd: Change of Swimsafer Assessment of Student (Corporation Primary School)
+Dear Iapp and team,
+please assist in the below by today.
+thank you very much:)
+appreciate it
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554
+---------- Forwarded message ---------
+From: Sttitude Swim School <sttitudesports@gmail.com>
+Date: Mon, Mar 1, 2021 at 1:03 PM
+Subject: Re: Change of Swimsafer Assessment of Student (Corporation Primary School)
+To: Wei Loon Daryl Ong <ong_wei_loon_daryl@moe.edu.sg>
+Cc: Jayme JACOB (SPORT) <jayme_jacob@sport.gov.sg>, <mohammad_farris_from.TP@sport.gov.sg>
+Dear Jayme and Farris,
+May i bring your urgent attention to assist in amending the system for the below mentioned student under Corporation Primary School MOE
+project
+(1)
+REN RUIYING
+2011/07/21
+T1121020H
+Test date: 3/3/2021 11am
+Test pool: Jurong Lake
+*Need to change from Stage 1 to Stage 3
+(2)
+CHIN JIA HAO BRYAN
+2011/04/09
+T1110556J
+Test date: 8/3/2021 11am
+Test pool: Jurong West
+*Need to change from Stage 1 to Stage 4
+Please kindly get back to us by tomorrow after you have amended it in the system.
+Thank you very much and appreciate your help
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554
+On Fri, Feb 26, 2021 at 11:54 AM Wei Loon Daryl Ong <ong_wei_loon_daryl@moe.edu.sg> wrote:
+Dear Jayme & Farris,
+I am Mr Ong, HOD PE of Corporation Primary School.
+My P4 students are currently undergoing swimsafer 2.0 and I would like to request in
+a change of assessment for 1 of my students under assessment code: ORLKBKVR.
+1) Name: Chin Jia Hao Bryan Class: 3.2
+I understand from my vendor, Sttitude swim school that they will not be able to make
+any further changes upon published.
+I seek your understanding as I was only recently updated by the parent of his child’s
+swimming proficiency.
+To serve better meaning and purpose for the child, I seek your understanding and
+help to allow the above mentioned child, Bryan to take an assessment that is
+relevant to his competency (Swimsafer Stage 4, Bronze).
+I look forward to hear from you soon.
+Warmest Regards,
+Daryl Ong
+Head of Department (PAM/CCA)
+Corporation Primary School
+31 Jurong West St 24, Singapore 648347 ● https://corporationpri.moe.edu.sg
+Nurturing Pupils who C.A.R.E. to succeed
+Respect. Integrity. Compassion. Humility. Endurance. Responsibility
+Tel: +65 6795 7381 • Fax: +65 6795 7098 • https://corporationpri.moe.edu.sg
+CONFIDENTIALITY: If this email has been sent to you by mistake, please notify the sender and delete it immediately, thank you.",Swimsafer,213050,(Change stage or venue)
+"Hi All,
+Kindly assist with the changing of stage.
+Thank you.
+With Best Regards,
+Carissa
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: sttitudesports@gmail.com
+Date: 01-03-2021 01:26pm
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg, Muhammad_FARRIS_from.TP@sport.gov.sg, ong_wei_loon_daryl@moe.edu.sg
+Subject: [CASE:213055] Re: Change of Swimsafer Assessment of Student (Corporation Primary School)
+Dear Iapp team,
+thank you for picking up our call and escalating it to your team today. I will furnish you with the details here again with the assessment code.
+Assessment code: MLACGMS3
+(1)
+REN RUIYING
+2011/07/21
+T1121020H
+Test date: 3/3/2021 11am
+Test pool: Jurong Lake
+*Need to change from Stage 1 to Stage 3
+Assessment code: ORLKBKVR
+(2)
+CHIN JIA HAO BRYAN
+2011/04/09
+T1110556J
+Test date: 8/3/2021 11am
+Test pool: Jurong West
+*Need to change from Stage 1 to Stage 4
+Please kindly get back to us by tomorrow after you have amended it in the system.
+Thank you very much and appreciate your help
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554
+On Mon, Mar 1, 2021 at 1:10 PM Sttitude Swim School <sttitudesports@gmail.com> wrote:
+Dear Iapp and team,
+please assist in the below by today.
+thank you very much:)
+appreciate it
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554
+---------- Forwarded message ---------
+From: Sttitude Swim School <sttitudesports@gmail.com>
+Date: Mon, Mar 1, 2021 at 1:03 PM
+Subject: Re: Change of Swimsafer Assessment of Student (Corporation Primary School)
+To: Wei Loon Daryl Ong <ong_wei_loon_daryl@moe.edu.sg>
+Cc: Jayme JACOB (SPORT) <jayme_jacob@sport.gov.sg>, <mohammad_farris_from.TP@sport.gov.sg>
+Dear Jayme and Farris,
+May i bring your urgent attention to assist in amending the system for the below mentioned student under Corporation Primary School MOE
+project
+(1)
+REN RUIYING
+2011/07/21
+T1121020H
+Test date: 3/3/2021 11am
+Test pool: Jurong Lake
+*Need to change from Stage 1 to Stage 3
+(2)
+CHIN JIA HAO BRYAN
+2011/04/09
+T1110556J
+Test date: 8/3/2021 11am
+Test pool: Jurong West
+*Need to change from Stage 1 to Stage 4
+Please kindly get back to us by tomorrow after you have amended it in the system.
+Thank you very much and appreciate your help
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554
+On Fri, Feb 26, 2021 at 11:54 AM Wei Loon Daryl Ong <ong_wei_loon_daryl@moe.edu.sg> wrote:
+Dear Jayme & Farris,
+I am Mr Ong, HOD PE of Corporation Primary School.
+My P4 students are currently undergoing swimsafer 2.0 and I would like to request
+in a change of assessment for 1 of my students under assessment code:
+ORLKBKVR.
+1) Name: Chin Jia Hao Bryan Class: 3.2
+I understand from my vendor, Sttitude swim school that they will not be able to
+make any further changes upon published.
+I seek your understanding as I was only recently updated by the parent of his
+child’s swimming proficiency.
+To serve better meaning and purpose for the child, I seek your understanding and
+help to allow the above mentioned child, Bryan to take an assessment that is
+relevant to his competency (Swimsafer Stage 4, Bronze).
+
+relevant to his competency (Swimsafer Stage 4, Bronze).
+I look forward to hear from you soon.
+Warmest Regards,
+Daryl Ong
+Head of Department (PAM/CCA)
+Corporation Primary School
+31 Jurong West St 24, Singapore 648347 ● https://corporationpri.moe.edu.sg
+Nurturing Pupils who C.A.R.E. to succeed
+Respect. Integrity. Compassion. Humility. Endurance. Responsibility
+Tel: +65 6795 7381 • Fax: +65 6795 7098 • https://corporationpri.moe.edu.sg
+CONFIDENTIALITY: If this email has been sent to you by mistake, please notify the sender and delete it immediately, thank you.",Swimsafer,213055,
+"Hi All ,
+Kindly assist on this issue ; Cert not reflected
+DOB is 11 Sept 2009
+Assessment code is ns77hj72
+Name : Pok Vann Xyn
+ID :T0970716B
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com. For other enquiries, click here.
+https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: cheweipok@yahoo.com
+Date: 01/03/2021 09:05pm
+To: helpme@iappsasia.com
+Subject: [CASE:213130] ActiveSG Contact Us
+Hi,
+May i know how long will ActiveSG take to update the certificate status in app? My son got his gold certificate recently.
+Thanks.
+Sent from Yahoo Mail on Android",Swimsafer,213130,
+"Hi All
+Please assist to change stage for following student to Stage 4.
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: Jayme_JACOB@sport.gov.sg
+Date: 04/03/2021 02:02pm
+To: helpme@iappsasia.com
+Subject: RE: [CASE:213384] RE: TOTNKP5E_Wrong Stage Booked
+Hi Yuan Ting,
+
+Details are as follows:
+
+Student Name: Ong Zhi Kang
+ID Number: T1224048H
+Assessment Code: TOTNKP5E
+Kind Regards,
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Wednesday, 3 March 2021 6:52 AM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Subject: Re: [CASE:213384] RE: TOTNKP5E_Wrong Stage Booked
+
+Hi Jayme,
+
+Kindly provide us with the assessment code as well as the student's ID number for the backend team to make the necessary adjustments.
+
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Jayme_JACOB@sport.gov.sg
+Date: 02/03/2021 08:45pm
+To: joycelee12@gmail.com, helpme@iappsasia.com
+Cc: mohamed_faisal_abdul_latiff@sport.gov.sg, Muhammad_FARRIS_from.TP@sport.gov.sg
+Subject: [CASE:213384] RE: TOTNKP5E_Wrong Stage Booked
+Hi iApps,
+
+Please assist in changing the student listed below to Stage 4 as I am unable to change the level of just one participant.
+
+Thanks.
+
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Joyce Lee <joycelee12@gmail.com>
+Sent: Monday, 1 March 2021 9:57 AM
+To: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Cc: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Mohamed Faisal ABDUL LATIFF (SPORT) <Mohamed_Faisal_ABDUL_LATIFF@sport.gov.sg>
+Subject: TOTNKP5E_Wrong Stage Booked
+
+HI Farris
+
+Pls advise if you can change this student to take Bronze tomorrow. The school just updated that the parent just emailed them the stage 3 certificate.
+
+ONG ZHI KANG
+
+--
+
+BEST REGARDS
+
+JOYCE LEE
+FITNESS CHAMPS SWIM SCHOOL
+
+CONTACT: 90055 485
+www.fcswim.com
+Like us on Facebook:
+http://m.facebook.com/profile.php?id=147469698667787",Swimsafer,213384,(Change stage or venue)
+"Hi All
+Please assist with changing of stage.
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Jayme_JACOB@sport.gov.sg
+Date: 04/03/2021 02:27pm
+To: helpme@iappsasia.com
+Cc: Muhammad_FARRIS_from.TP@sport.gov.sg, mohamed_faisal_abdul_latiff@sport.gov.sg, joycelee12@gmail.com
+Subject: [CASE:213818] RE: Assessment Code : DS9CMV6C
+Hi iApps,
+
+Please assist in changing the stage of student Kong Zi Xuan for Assessment DS9CMV6C to Stage 2.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Joyce Lee <joycelee12@gmail.com>
+Sent: Wednesday, 3 March 2021 10:30 AM
+To: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>; Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>;
+Mohamed Faisal ABDUL LATIFF (SPORT) <Mohamed_Faisal_ABDUL_LATIFF@sport.gov.sg>
+Subject: Fwd: Assessment Code : DS9CMV6C
+
+Dead Farris and Team
+
+Pls assist with the change in stage.
+
+Name of Assessment*:DAZHONG PRI 2021_GROUP 4
+
+Venue *:Clementi Swimming Complex
+
+Date and Time *:
+2021-03-12 13:30:00
+
+Assessment Code :
+DS9CMV6C
+
+KONG ZI XUAN was booked for S1, please change his stage booking to S2",Swimsafer,213818,(Change stage or venue)
+"Hi All,
+This case requires Ontime creation.
+- Issue: Wrong stage
+- Platform: MMS, production
+- Raised by: Jayme Jacob, SportSG HQ
+- How to get the problem again?
+
+Jayme would like to change the current stage for Simran Rakesh to stage 6.
+Assessment code: LNFUNLGG
+
+Please kindly assist, thank you.
+
+Thanks and Best Regards,
+Elizabeth
+From: Jayme_JACOB@sport.gov.sg
+Date: 04/03/2021 03:04pm
+To: helpme@iappsasia.com
+Cc: munmungawain@gmail.com, Muhammad_FARRIS_from.TP@sport.gov.sg, TAN_Hock_Leong@sport.gov.sg, suenwoon.lee@gmail.com,
+mohamed_faisal_abdul_latiff@sport.gov.sg
+Subject: [CASE:213842] RE: Swim Safer Test - PORTAL Issue
+Hi iApps,
+
+Please assist in changing the stage of student Simran Rakesh from Assessment LNFUNLGG to Level 6.
+
+Thank you.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Hock Leong TAN (SPORT) <TAN_Hock_Leong@sport.gov.sg>
+Sent: Thursday, 4 March 2021 9:56 AM
+To: SW Lee <suenwoon.lee@gmail.com>; Mohamed Faisal ABDUL LATIFF (SPORT) <Mohamed_Faisal_ABDUL_LATIFF@sport.gov.sg>; Jayme
+JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Cc: Gawain Leong <munmungawain@gmail.com>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: RE: Swim Safer Test - PORTAL Issue
+
+Hi,
+
+Thanks for your mails. I received 2 similar ones for 27 & 28 Feb.
+Just to check, this event is over?
+
+I will forward this to my colleague Jayme for her to see what we can do to help.
+
+Best regards.
+
+From: SW Lee <suenwoon.lee@gmail.com>
+Sent: Thursday, 4 March 2021 12:19 AM
+To: Hock Leong TAN (SPORT) <TAN_Hock_Leong@sport.gov.sg>; Mohamed Faisal ABDUL LATIFF (SPORT)
+<Mohamed_Faisal_ABDUL_LATIFF@sport.gov.sg>
+Cc: Gawain Leong <munmungawain@gmail.com>
+Subject: Re: Swim Safer Test - PORTAL Issue
+
+Hello Mr Tan / Faisal
+
+Sorry to trouble you
+We need your help
+
+This is our first time to combine Stage 5 & 6 for Swim Safer Test
+
+Test Code is LNFUNLGG
+Test Date 28-Feb 2021 Sunday
+Time 11 am
+Location Tampines Pool
+
+Issue........
+
+1. Total 5 students submitted for test
+2. Silver = 4, Gold = 1 ( To make up minimum of 5)
+3. SIMRAN RAKESH did the Gold test
+4. How to change in the Portal to access her as Gold candidate ?
+5. Would you be able to help us to edit it on your end
+
+Thank you
+
+SW Lee
+
+On Thu, Mar 4, 2021 at 12:10 AM SW Lee <suenwoon.lee@gmail.com> wrote:
+
+Hello Mr Tan / Faisal
+
+Sorry to trouble you
+We need your help
+
+This is our first time to combine Stage 5 & 6 for Swim Safer Test
+
+Test Code is ULMWADZU
+Test Date 27-Feb 2021 Sat
+Time 11 am
+Location",Swimsafer,213842,(Change stage or venue)
+"Hi All,
+Able to assist with generating the Swimsafer eCert as Jian Chuan is away for reservist from 17
+March to 26 March, details as attached.
+Assessment Code: 4EMVFOTG
+Date of Test: 20 Jan 2021 By Fitnesschamps
+Student name: Arshia Ranjit Teckwani
+B/C No: T1002510E
+Date of Birth: 01 Feb 2010
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: sundraes@gmail.com
+Date: 17/03/2021 09:54am
+To: helpme@iappsasia.com
+Subject: Re: [CASE:217334] ActiveSG Contact Us
+4EMVFOTG
+Thanks
+On Wed, 17 Mar 2021, 09:18 Active SG Helpdesk, <helpme@iappsasia.com> wrote:
+Hi Sundraes,
+Kindly provide us with the correct assessment code so that we will be able to retrieve the
+assessment.
+The assessment code is an alphanumeric code that you may obtain from the coach.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: yuanting@iappsasia.com
+Date: 17/03/2021 09:12am
+To: helpme@iappsasia.com
+Subject: Fwd: [CASE:217334] ActiveSG Contact Us
+---------- Forwarded message ---------
+
+---------- Forwarded message ---------
+From: Sundraes Haridas <sundraes@gmail.com>
+Date: Wed, Mar 17, 2021 at 7:17 AM
+Subject: [CASE:217334] ActiveSG Contact Us
+To: Yeo Yuan Ting <yuanting@iappsasia.com>
+Assessment Code: Swimsafer 2.0 Stage 3 Test
+Date of Test: 20 Jan 2021
+By Fitnesschamps
+Student name: Arshia Ranjit Teckwani
+B/C No: T1002510E
+Date of Birth: 01 Feb 2010
+On Wed, 17 Mar 2021, 06:34 Yeo Yuan Ting, <contactus@iappsasia.com> wrote:
+Hi Sundraes,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please provide us with the following so that we will be able to assist you:
+Assessment Code:
+Student name:
+B/C No:
+Date of Birth:
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or
+email: helpme@iappsasia.com.
+For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: sundraes@gmail.com
+Date: 17/03/2021 03:24am
+To: helpme@iappsasia.com
+Subject: [CASE:217334] ActiveSG Contact Us
+Hi there, my daughter Arshia(T1002510E) has completed her stage 3 swimming test on 20 Jan
+2021 at Sengkang Swimming complex. Pls update her account as I saw that only stage 2
+certificate was awarded to her.
+Thanks
+Regards
+Sundraes
+9455 3159",Swimsafer,217334,(swimsafer cert)
+"Hi All,
+Able to assist with generating the eCert in the child's account as Jian Chuan is away for reservist
+from 17 March to 26 March, details as attached.
+Assessment Code: VVYQV0BJ
+Student name: Keaen-Seth Tan
+B/C No: T1200051G
+Date of Birth: 30 October 2011
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: gracethang31@gmail.com
+Date: 18/03/2021 02:05pm
+To: helpme@iappsasia.com
+Subject: [CASE:218141] Swimsafer records not found on ActiveSG
+Dear Sir,
+With reference to my boy, Keaen-Seth Tan (BC: T1200051G), I realised that his swimsafer
+certificates are not recorded in ActiveSG.
+The most recent Gold test that he took is on 16 Mar 2021, assessment code is VVYQV0BJ.
+Please advise.
+Thanks,
+Grace
+Hp: 9691 1634",Swimsafer,218141,
+"Hi,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Hi All,
+This case requires Ontime creation.
+- Issue: Amend stage from stage 1 to stage 2.
+Assessment Code: LIFBKGVP
+CHANDRASEKAR SAMRUDH
+3/5/2011
+Platform: MMS, production
+- Raised by: *Jayme*, SportSG HQ
+- How to get the problem again?
+- Investigation results:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other enquiries, click
+here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+sg
+Date: 10/03/2021 02:47pm
+To: helpme@iappsasia.com, Muhammad_FARRIS_from.TP@sport.gov.sg
+Subject: RE: [CASE:214040] Change of Swimsafer Assessment of Student (Cedar Primary School)
+Hi Azimah,
+
+Approved.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Friday, 5 March 2021 1:12 PM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: FW: [CASE:214040] Change of Swimsafer Assessment of Student (Cedar Primary School)
+
+Hi Jayme,
+
+Kindly assist to approved for backend changes - amend stage from stage 1 to stage 2.
+
+ssessment Code: LIFBKGVP
+CHANDRASEKAR SAMRUDH
+3/5/2011
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: sttitudesports@gmail.com
+Date: 05-03-2021 08:55am
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg, Muhammad_FARRIS_from.TP@sport.gov.sg
+Subject: [CASE:214040] Change of Swimsafer Assessment of Student (Cedar Primary School)
+Dear Iapp and team, (cc: Jayme and Farris)
+
+The teacher in charge just informed us about a change of ability of a student under Cedar Primary School MOE project.
+
+We seek IApp backend help to amend the stage for the child's upcoming assessment on 11 Mar 2021.
+
+Below are the detail:
+
+Assessment Code: LIFBKGVP
+(1)
+CHANDRASEKAR SAMRUDH
+3/5/2011
+T1106953Z
+Test date: 11/3/2021 11.30am
+Test pool: GEYLANG EAST SWIMMING COMPLEX
+*Need to change from Stage 1 to Stage 2
+
+Do let us know after the change. Thank you
+
+STTITUDE SWIM SCHOOL PTE. LTD.
+www.facebook.com/STTITUDE
+sttitudesports@gmail.com
+Hp: 94880554",Swimsafer,214040,(Change stage or venue)
+"Hi All,
+This case requires Ontime creation.
+- Issue: Swimsafer - To amend venue
+Assessment Code : 712H8W6W
+
+Venue *: Serangoon Swimming Complex (Error: Should be Tampines Swimming Complex)
+- Platform: MMS, production
+- Raised by: *Jayme*, SportSG HQ
+- How to get the problem again?
+- Investigation results:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email:
+helpme@iappsasia.com. For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Shima
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Jayme_JACOB@sport.gov.sg
+Date: 10/03/2021 03:51pm
+To: helpme@iappsasia.com, Muhammad_FARRIS_from.TP@sport.gov.sg
+Subject: RE: [CASE:214670] Error in Venue
+Hi Azimah,
+
+Approved.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Active SG Helpdesk <helpme@iappsasia.com>
+Sent: Monday, 8 March 2021 7:10 PM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: FW: [CASE:214670] Error in Venue
+
+Hi Jayme,
+
+Kindly assist to approve for backend adjustment / Ontime : Swimsafer - To amend venue
+
+Assessment Code : 712H8W6W
+Venue *: Serangoon Swimming Complex (Error: Should be Tampines Swimming Complex)
+Thank you.
+With Best Regards,
+Azimah
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: pacificswimteam@gmail.com
+Date: 08-03-2021 05:28pm
+To: helpme@iappsasia.com
+Subject: [CASE:214670] Error in Venue
+
+Hi ActiveSG Helpdesk,
+
+There is an error under Venue.
+
+Please help to amend the Venue from Serangoon Swimming Complex to Tampines Swimming Complex.
+
+Assessment detail
+Name of Assessment*:
+Tampines Hub Mon 2pm 15032021 Stage 2 Group 1
+Venue *:
+Serangoon Swimming Complex (Error: Should be Tampines Swimming Complex)
+Date and Time *:
+2021-03-15 14:00:00
+Assessment Code :
+712H8W6W
+
+Really appreciate your help.
+
+Thank you
+
+Regards
+Celine
+Pacific Swim Team Pte Ltd",Swimsafer,214670,
+"Hi All,
+This case requires Ontime creation
+- Issue: Amend stage to Stage 2
+- Platform: MMS, production
+- Raised by: *Jayme*, SportSG HQ
+- How to get the problem again?
+changing the level of Teo Chun Jiu from Assessment 1T57TYXI to Level 2.
+Thank you.
+Regards,
+Zachary
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: Jayme_JACOB@sport.gov.sg
+Date: 11/03/2021 12:45pm
+To: helpme@iappsasia.com
+Cc: jeremy@sportstuition.com.sg, Muhammad_FARRIS_from.TP@sport.gov.sg, vincent@sportstuition.com.sg
+Subject: [CASE:215439] RE: Change in results - 1T57TYXI - TEO CHUN JIU
+Hi iApps,
+
+Please kindly assist in changing the level of Teo Chun Jiu from Assessment 1T57TYXI to Level 2.
+
+Thank you.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Vincent <vincent@sportstuition.com.sg>
+Sent: Wednesday, 10 March 2021 4:18 PM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Cc: Jeremy Phee <jeremy@sportstuition.com.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Re: Change in results - 1T57TYXI
+
+Hi Jayme,
+
+The student’s name is TEO CHUN JIU.
+
+Regards,
+Vincent
+
+On 10 Mar 2021, at 3:50 PM, Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg> wrote:
+
+Hi Vincent,
+
+Please kindly provide the name of the student. Thanks.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+
+<image001.jpg>
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Vincent Soh <vincent@sportstuition.com.sg>
+Sent: Monday, 8 March 2021 3:57 PM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Cc: Jeremy Phee <jeremy@sportstuition.com.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Change in results - 1T57TYXI
+
+Hi Jayme,
+
+Do assist to change the stage and result for the following student:
+
+The correct stage should be Stage 2 and the result is PASS.
+
+Regards,
+VIncent",Swimsafer,215439,
+"Hi All
+Please assist in changing the stages of the following students from stage 3 to 4.
+Assessment Code: MTRKFUCS
+1. Dynneris Doctor Tabaniag
+2. Kirti Rai
+Thank you.
+Best Regards,
+Ruo Lin
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: Nancy_kkg@hotmail.com
+Date: 03/03/2021 09:36pm
+To: helpme@iappsasia.com
+Subject: Reply: Re: [CASE:212697] 2 Wrong selection of stage
+Attached the assessment form to you
+Again
+Sent from vivo smartphone",Swimsafer,212697,
+"Hi All,
+Able to assist as the coach is unable to login to his students' accounts to do theory assessments even though all the details match, details as
+attached.
+Assessment code: 5KUW5NDV
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: yuanting@iappsasia.com
+Date: 16/03/2021 05:34pm
+To: helpme@iappsasia.com
+Subject: Fwd: [CASE:217163] Error login in
+---------- Forwarded message ---------
+From: the aquatics swim school <theaquaticsswimschool@gmail.com>
+Date: Tue, Mar 16, 2021 at 5:32 PM
+Subject: [CASE:217163] Error login in
+To: Yeo Yuan Ting <yuanting@iappsasia.com>
+Assessment Code :
+5KUW5NDV
+On Tue, Mar 16, 2021 at 5:31 PM Yeo Yuan Ting <contactus@iappsasia.com> wrote:
+Hi Jerad,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Kindly provide us with the assessment code so that we can check.
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com.
+For other enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+
+From: theaquaticsswimschool@gmail.com
+Date: 16/03/2021 05:18pm
+To: helpme@iappsasia.com, Sport_SwimSafer@sport.gov.sg
+Subject: [CASE:217163] Error login in
+Hi our students have issues logging in to do theory.
+https://members.myactivesg.com/swimsafer/swimsafer/entry.
+Ezekiel Lee Zhe Xuan
+T1232707G
+17 Oct 2012
+Stage 1
+Natalia Gan Zi Lin
+T1311607A
+10 Apr 2012
+Stage 1
+Natasha Gan Zi Yin
+T1311603I
+10 Apr 2012
+
+10 Apr 2012
+Stage 1
+It gave us an error about the wrong ic / birthday date.
+Please assist.
+Thank you,
+Jerad",Swimsafer,217163,(swimsafe portal issues)
+"Hi All,
+Able to assist on the following issue as the earliest assessment the instructor is able to book is in May and not in March/April.
+Thank you!
+Warmest Regards,
+Yuan Ting
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: Muhammad_FARRIS_from.TP@sport.gov.sg
+Date: 17/03/2021 04:28pm
+To: helpme@iappsasia.com
+Cc: Jayme_JACOB@sport.gov.sg
+Subject: [CASE:217438] FW: Swimsafer Test Booking
+Hi Helpdesk,
+
+Could you advise me on the issue below. The instructor below is unable to book for any assessments within March and April. He claims that the system only allows for him to book in May at the earliest. Are you
+able to clarify on the reason why?
+
+Warm regards,
+Farris
+
+From: Alex Loh <alexloh77@hotmail.com>
+Sent: Wednesday, 17 March 2021 9:47 AM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Re: Swimsafer Test Booking
+
+Hi,
+
+I had checked with all the coaches from Jurong East complex sat 3pm to 6pm, non of them had booked any
+swimsafer test for the month of mar and apr. If no test booking had been made why I am unable to book test?
+
+Thanks!!!
+
+From: Alex Loh <alexloh77@hotmail.com>
+Sent: Tuesday, 16 March 2021 10:46 AM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Re: Swimsafer Test Booking
+
+Hi,
+
+I had checked with all the coaches from Jurong East complex sat 3pm to 6pm, non of them had booked any
+swimsafer test for the month of mar and apr. If no test booking had been made why I am unable to book test?
+
+Thanks!!!
+
+On 16 Mar 2021 8:41 am, Alex Loh <alexloh77@hotmail.com> wrote:
+Hi,
+
+I had checked with all the coaches from Jurong East complex sat 3pm to 6pm, non of them had booked any
+swimsafer test for the month of mar and apr. If no test booking had been made why I am unable to book test?
+
+Thanks!!!
+
+From: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Sent: Monday, 8 March 2021 12:07 PM
+To: Alex Loh <alexloh77@hotmail.com>; Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: RE: Swimsafer Test Booking
+
+Hi Alex,
+
+This means that the slots for assessments during March and April have been taken up.
+
+Please choose the next earliest available date.
+Kind Regards,
+
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+Sport Singapore
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Alex Loh <alexloh77@hotmail.com>
+Sent: Monday, 8 March 2021 11:54 AM
+To: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Re: Swimsafer Test Booking
+
+Hi,
+
+I just tried again. Mar and Apr unable to book for test, earliest is may. May I know what is the reason?
+
+Thanks!!!
+
+From: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>
+Sent: Monday, 8 March 2021 11:31 AM
+To: Alex Loh <alexloh77@hotmail.com>; Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: RE: Swimsafer Test Booking
+
+Hi Alex,
+
+Per the SwimSafer booking system, bookings can only be made 2 weeks prior to the date of the test. This is to prevent double bookings.
+
+As such, the system was not letting you make a booking as you were trying to make one for the 13th of March on the 3rd of March.
+
+Do schedule for a later date that the system will allow.
+
+Thank you.
+Kind Regards,
+Jayme Jacob
+Foundation Sports Executive
+ActiveSG | Sport Singapore
+jayme_jacob@sport.gov.sg | 3 Stadium Drive, Singapore 397630
+Sport Singapore
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or
+have received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or
+disseminate the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or
+acceptance resulting in binding agreement, unless expressly stated otherwise.
+
+From: Alex Loh <alexloh77@hotmail.com>
+Sent: Saturday, 6 March 2021 10:00 PM
+To: Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Cc: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: Re: Swimsafer Test Booking
+
+Hi,
+
+I had been waiting for your colleague reply, are they still working at sport singapore or quit already?
+
+Thanks!!!
+
+From: Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Sent: Wednesday, 3 March 2021 10:56 AM
+To: Alex Loh <alexloh77@hotmail.com>
+Cc: Jayme JACOB (SPORT) <Jayme_JACOB@sport.gov.sg>; Muhammad FARRIS from.TP (SPORT) <Muhammad_FARRIS_from.TP@sport.gov.sg>
+Subject: RE: Swimsafer Test Booking
+
+Hi Alex
+
+My colleague Jayme and Farris will assist you.
+
+Thanks
+
+Simon Tan
+Team Lead
+Active Ageing Development | Active Masters | ActiveSG
+simon_tan@sport.gov.sg | T.65 6500 5172 | F. 65 63461842 | 3 Stadium Drive, Singapore 397630
+SportSG_EmailSignature_Generic2019
+
+SG United
+
+CONFIDENTIALITY NOTICE: This email may contain privileged and confidential information. If you have been sent or have
+received this email by mistake, please notify the sender and delete the email immediately. You must not copy, use or disseminate
+the information contained in this email. Nothing in this email is intended to nor shall it constitute any offer or acceptance resulting in
+binding agreement, unless expressly stated otherwise.
+
+From: Alex Loh <alexloh77@hotmail.com>
+Sent: Wednesday, 3 March 2021 10:47 AM
+To: SPORT swimsafer (SPORT) <SPORT_swimsafer@sport.gov.sg>
+Cc: Simon TAN (SPORT) <Simon_TAN@sport.gov.sg>
+Subject: Swimsafer Test Booking
+
+Hi,
+
+I got problem with the test booking. I am unable to book swimsafer test on 13 mar 2021 1515hrs at Jurong East
+Complex, I choose other dates and timing also unable to book.
+
+Thanks!!!",Swimsafer,217438,
+"Hi All,
+This case requires investigation
+- Issue: Can't login to top up with direct debit.
+- Platform: MMS, production
+- Raised by: Sandy Soh, ASG Member
+- How to get the problem again?
+Member is unable to login to her direct debit to top up her mycash, please kindly see attached for
+error message.
+Please kindly assist, thank you.
+Thanks and Best Regards,
+Elizabeth
+From: sandysoh77@hotmail.com
+Date: 02/03/2021 05:22pm
+To: helpme@iappsasia.com
+Subject: Re: [CASE:213337] ActiveSG Contact Us
+Hi as requested please refer screenshot.my mobile number 88122422.
+Thanks n regards
+Sandy Soh
+Sent from Android device
+On 2 Mar 2021 16:25, Active SG Helpdesk <helpme@iappsasia.com> wrote:
+Dear Sandy,
+Thank you for writing to ActiveSG Technical HelpDesk.
+Please uninstall and reinstall the application and try to log in again.
+If the issue persists, please advise us on the following details so that we can check:-
+Mobile No.:
+Phone Model:
+OS/Android Version:
+App Version:
+
+For technical-related issues, contact us again at +65 65941388 (Mon to Sun, 7am to 10pm) or email: helpme@iappsasia.com. For other
+enquiries, click here. https://members.myactivesg.com/feedback.
+Thank you.
+With Best Regards,
+Jane
+ActiveSG Technical Helpdesk
+iAPPS Pte Ltd
+3 Fusionopolis Way, #13-24/25
+Symbiosis, Singapore 138633
+Helpline: 65941388
+From: sandysoh77@hotmail.com
+Date: 02/03/2021 03:53pm
+To: helpme@iappsasia.com
+Subject: [CASE:213337] ActiveSG Contact Us
+Hi
+I cannot perform direct debit from my account as shown in screenshots
+I wish to reapply a new account as the current have been terminated
+My new account is DBS current account 1206131665
+Please link to this new account asap
+Thank you for your assistance
+Regards
+
+Regards
+Sandy Soh",Top Up,213337,
 "On 29 Mar 2021, at 6:01 PM, Active SG Helpdesk  wrote: ﻿
 Hi
 Thank you for writing to ActiveSG Technical HelpDesk.
@@ -244,4 +5401,17 @@ iAPPS Pte Ltd
 3 Fusionopolis Way, #13-24/25
 Symbiosis, Singapore 138633
 Helpline: 65941388
-",
+",Booking,,
+"Hi Helpdesk
+There are 83 members in the attached sheet. To extend their ActiveSG credits with
+expiry date 28 February 2022.
+Please proceed with data patch for the next ontime push, and update once done.
+Password will be send separately.",Credit expiry request,,
+"Hi All,
+This case requires Ontime creation.
+- Issue: Credit Reinstatement
+- Platform: MMS, production
+- Raised by: Yeo Shu Ling, SportSG HQ
+- How to get the problem again?
+Please kindly assist with credit reinstatement, thank you.
+Password: Act!ve5GS5C~",Credit expiry request,,

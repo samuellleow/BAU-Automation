@@ -113,7 +113,6 @@ def extractEmail():
                         if content_type == "text/plain" and ("attachment" or "inline") not in content_disposition:
                             # print text/plain emails and skip attachments
                             bodyText = body
-                            print(type(body))
                             print(body)
                         elif ("attachment" in content_disposition) or ("inline" in content_disposition):
                             emailWithAttachment = 1
@@ -136,7 +135,6 @@ def extractEmail():
                     body = msg.get_payload(decode=True).decode()
                     if content_type == "text/plain":
                         bodyText = body
-                        print(type(body))
                         print(body)
                     # processBodyMessage(bodyText)
 
@@ -156,7 +154,7 @@ def extractEmail():
                 ass = Assigner("data/train.csv")
                 ass.train(0.2)
                 predicted_issue = ass.assign(body)
-                print(predicted_issue)
+                print(str(predicted_issue))
 
                 msg = MIMEMultipart()
                 msg['From'] = username

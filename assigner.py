@@ -16,7 +16,7 @@ from nltk.corpus import stopwords
 # from bs4 import BeautifulSoup
 
 STOPWORDS = set(stopwords.words('english'))
-CONTEXTUAL_STOPWORDS = ['&gt;', 'hello', 'said', 'regards', 'hi', 'all', 'please', 'assist','kindly','help','thx','thank','thankyou','you', 'thu', 'fwd', 'forwarded', 'message', 'iappsasiacom', 'date', 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'gmail', 'gmailcom', 'com', 'tell', 'am', 'pm', 'subject', 'query', 'mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']
+CONTEXTUAL_STOPWORDS = ['image', '&gt;', 'hello', 'said', 'regards', 'hi', 'all', 'please', 'assist','kindly','help','thx','thank','thankyou','you', 'thu', 'fwd', 'forwarded', 'message', 'iappsasiacom', 'date', 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'gmail', 'gmailcom', 'com', 'tell', 'am', 'pm', 'subject', 'query', 'mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']
 STOPWORDS.update(CONTEXTUAL_STOPWORDS)
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
 BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
@@ -32,6 +32,7 @@ def clean_text(text):
     text = ''.join([i for i in text if not i.isdigit()])
     text = " ".join(text.split())
     return text
+
 
 class Assigner:
 
