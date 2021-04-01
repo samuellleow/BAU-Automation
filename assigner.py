@@ -1,25 +1,37 @@
 import numpy as np 
 import pandas as pd
-# import matplotlib.pyplot as plt
-# import seaborn as sns
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 from keras.layers import Dense, Embedding, LSTM, SpatialDropout1D
 from sklearn.model_selection import train_test_split
-# from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
-# from keras.layers import Dropout
 import re
 from nltk.corpus import stopwords
-# from nltk import word_tokenize
-# from bs4 import BeautifulSoup
+import nltk
+from nltk import pos_tag
+from nltk import word_tokenize
+from nltk.stem import WordNetLemmatizer
 
 STOPWORDS = set(stopwords.words('english'))
 CONTEXTUAL_STOPWORDS = ['&gt;', 'hello', 'said', 'regards', 'hi', 'all', 'please', 'assist','kindly','help','thx','thank','thankyou','you', 'thu', 'fwd', 'forwarded', 'message', 'iappsasiacom', 'date', 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec', 'gmail', 'gmailcom', 'com', 'tell', 'am', 'pm', 'subject', 'query', 'mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']
 STOPWORDS.update(CONTEXTUAL_STOPWORDS)
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
 BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
+wordnet_lemmatizer = WordNetLemmatizer()
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+
+def lemmatize(x):
+    dirty = word_tokenize(x)
+    tokens = []
+    for word in dirty:
+        if word.strip('.') == '':
+            pass
+        else:
+            tokens.append(word.strip('.'))
+    tokens = pos_tag(tokens)
+    lemms = ' '.join(wordnet_lemmatizer.lemmatize(key.lower()) for key, value in  tokens if value != 'NNP') #getting rid of proper nouns
+    return lemms
 
 def remove_confidentiality_notice(after_split):
     cleaned = []
@@ -70,6 +82,7 @@ def clean_text(text):
     text = text.replace("\n", " ")
     text = REPLACE_BY_SPACE_RE.sub(' ', text)
     text = BAD_SYMBOLS_RE.sub('', text)
+    text = lemmatize(text)
     text = ' '.join(word for word in text.split() if word not in STOPWORDS)
     text = ''.join([i for i in text if not i.isdigit()])
     text = " ".join(text.split())
