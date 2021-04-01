@@ -21,9 +21,51 @@ STOPWORDS.update(CONTEXTUAL_STOPWORDS)
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
 BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
 
+def remove_confidentiality_notice(after_split):
+    cleaned = []
+    counter = 7
+    found =  False
+    for each in after_split:
+        if '*CONFIDENTIALITY NOTICE' in each:
+            found = True
+            counter -= 1
+        else:
+            if found:
+                counter -= 1
+                if counter == 0:
+                    found = False
+                else:
+                    continue
+            else:
+                cleaned.append(each)
+    return cleaned
+
+def remove_fixed_address(after_split):
+    cleaned = []
+    counter = 5
+    found =  False
+    for each in after_split:
+        if 'ActiveSG Technical Helpdesk' in each:
+            found = True
+            counter -= 1
+        else:
+            if found:
+                counter -= 1
+                if counter == 0:
+                    found = False
+                else:
+                    continue
+            else:
+                cleaned.append(each)
+    return cleaned
+
 def clean_text(text):
     temp = text.split("\r")
-    text = ''.join(word for word in temp if 'From:' not in word and 'To:' not in word and '<' not in word)
+    temp = remove_confidentiality_notice(temp)
+    temp = remove_fixed_address(temp)
+    text = ''.join(word for word in temp if 'From:' not in word and 'To:' not in word and '<' not in word and 'Forwarded' not in word and 
+                  'Date' not in word and 'Subject' not in word and 'Cc' not in word
+                   and 'n[O]' not in word and '[F]' not in word and 'Sent:' not in word and '@' not in word)
     text = text.lower()
     text = text.replace("\n", " ")
     text = REPLACE_BY_SPACE_RE.sub(' ', text)
