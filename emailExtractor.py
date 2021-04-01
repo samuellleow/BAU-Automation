@@ -154,7 +154,7 @@ def extractEmail():
                     open(filepath, "w").write(body)
 
                 ass = Assigner("data/train.csv")
-                ass.train(0.2)
+                ass.train(0.2, 12) # The new argument (12) refers to the number of unique levels in the dependent variable (i.e. number of issue types)
                 predicted_issue = ass.assign(body)
                 print(predicted_issue)
 
